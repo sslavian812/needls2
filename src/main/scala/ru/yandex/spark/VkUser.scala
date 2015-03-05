@@ -284,4 +284,8 @@ object VkUser {
       }
     }
   }
+
+  def storeUser(user: User, path: String) = {
+    // store json representation on disk.
+  }
 }
