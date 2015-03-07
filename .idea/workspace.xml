@@ -2,6 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28bdc654-e813-4472-aa48-33a49c0fe60a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_10_4_3_2_11.xml" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GeneralInformation$.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GeneralInformation$.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GeneralInformation.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GeneralInformation.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GroupInformation$.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GroupInformation$.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GroupInformation.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\GroupInformation.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\User$.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\User$.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\User.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\User.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\UsersCollecting$.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\UsersCollecting$.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\UsersCollecting.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\UsersCollecting.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$1.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$2.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$3.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$4.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$5.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$1.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$1.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$2.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$2.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$3.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$3.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$4.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$4.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$5.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$5.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$6.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addExtraInformation$6.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$1.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$1.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$10.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$10.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$11.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$11.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$12.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$12.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$13.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$13.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$14.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$14.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$15.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$15.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$16.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$16.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$17.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$17.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$2.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$2.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$3.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$3.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$4.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$4.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$5.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$5.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$6.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$6.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$7.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$7.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$8.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$8.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$9.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addGeneralInformation$9.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addSubscribtionInformation$1.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addSubscribtionInformation$1.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addSubscribtionInformation$2.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addSubscribtionInformation$2.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addSubscribtionInformation$3.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$$anonfun$addSubscribtionInformation$3.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser$.class" />
+      <change type="MODIFICATION" beforePath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser.class" afterPath="C:\Dropbox\yandex\needls2\target\classes\ru\yandex\spark\VkUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala" afterPath="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala" afterPath="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/needls2.iml" afterPath="$PROJECT_DIR$/needls2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
@@ -20,6 +64,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -32,61 +81,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Spark.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Spark.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1300">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Run.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Run.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2340" max-vertical-offset="3952">
-              <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClusterTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/ClusterTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2158" max-vertical-offset="5200">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="VkUser.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7093" max-vertical-offset="7722">
-              <caret line="288" column="40" selection-start-line="288" selection-start-column="40" selection-end-line="288" selection-end-column="40" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="7904">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="e#25#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersCollecting.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UsersCollecting.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63982105" vertical-offset="0" max-vertical-offset="894">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1222">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#25#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1794" max-vertical-offset="3874">
-              <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.2147651" vertical-offset="1706" max-vertical-offset="3848">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,10 +129,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/LoadUser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Run.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/ClusterTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Spark.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UserLoading.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala" />
       </list>
     </option>
   </component>
@@ -147,6 +172,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,7 +234,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,7 +250,7 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.42230347" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -240,7 +265,7 @@
       <recent name="C:\Dropbox\yandex\needls2\src\main\scala\ru\yandex\spark" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.collecting">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -570,7 +595,24 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+    <configuration default="false" name="loading" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ru.yandex.spark.UserLoading" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="needls2" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="collecting" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.yandex.spark.UsersCollecting" />
       <option name="VM_PARAMETERS" value="" />
@@ -615,9 +657,10 @@
       </MavenSettings>
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.Unnamed" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.loading" />
+      <item index="1" class="java.lang.String" itemvalue="Application.collecting" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.Unnamed" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -634,45 +677,66 @@
       <workItem from="1424712047766" duration="2882000" />
       <workItem from="1424963824095" duration="729000" />
       <workItem from="1425292004417" duration="3773000" />
-      <workItem from="1425544043293" duration="4700000" />
+      <workItem from="1425544043293" duration="7589000" />
+      <workItem from="1425660206116" duration="18483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42643000" />
+    <option name="totallyTimeSpent" value="64015000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="-11" width="1847" height="1102" extended-state="6" />
+    <frame x="84" y="-11" width="1847" height="1102" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.311493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5198711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42105263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6723953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22637238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43823844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -693,15 +757,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -710,6 +766,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Spark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="832" max-vertical-offset="1300">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2340" max-vertical-offset="3952">
+          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/ClusterTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2158" max-vertical-offset="5200">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="7722">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="806">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1794" max-vertical-offset="3874">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Spark.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -738,7 +846,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7488" max-vertical-offset="7722">
           <caret line="288" column="40" selection-start-line="288" selection-start-column="40" selection-end-line="288" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -746,7 +856,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="806">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +890,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1508" max-vertical-offset="7618">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -786,7 +900,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -818,7 +934,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1508" max-vertical-offset="7618">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -826,7 +944,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,7 +978,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1508" max-vertical-offset="7618">
           <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +988,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,50 +1099,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Run.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2093" max-vertical-offset="3952">
-          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/ClusterTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5200">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.26174498" vertical-offset="1378" max-vertical-offset="5070">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-core_2.10/3.2.10/json4s-core_2.10-3.2.10.jar!/org/json4s/package.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="2184">
-          <caret line="288" column="40" selection-start-line="288" selection-start-column="40" selection-end-line="288" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Spark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1300">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1794" max-vertical-offset="3874">
-          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.059023835" vertical-offset="0" max-vertical-offset="1092">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/UsersCollecting.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63982105" vertical-offset="0" max-vertical-offset="894">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1222">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Run.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14541388" vertical-offset="2340" max-vertical-offset="3822">
+          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/Spark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47651008" vertical-offset="406" max-vertical-offset="1300">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/yandex/spark/VkUser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="7904">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2147651" vertical-offset="1706" max-vertical-offset="3848">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1088,7 +1224,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: org.scala-lang:scala-library:2.10.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

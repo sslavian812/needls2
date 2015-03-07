@@ -5,6 +5,7 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 
+
 case class User(
                  id: String,
                  generalInformation: GeneralInformation = GeneralInformation(),
@@ -285,7 +286,13 @@ object VkUser {
     }
   }
 
-  def storeUser(user: User, path: String) = {
-    // store json representation on disk.
+  def getJsonRepresentation(user: User): JObject  = {
+    val res = Extraction.decompose(user).asInstanceOf[JObject]
+    res
+  }
+
+  def restoreFromJson(jObject: JObject): User = {
+    val res = Extraction.extract(jObject)
+    res
   }
 }

@@ -58,23 +58,12 @@
       <version>1.1.1</version>
     </dependency>
 
-    <!--<dependency>-->
-      <!--<groupId>org.apache.spark</groupId>-->
-      <!--<artifactId>spark-core_2.11</artifactId>-->
-      <!--<version>1.2.0</version>-->
-    <!--</dependency>-->
 
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-graphx_2.10</artifactId>
       <version>1.1.1</version>
     </dependency>
-
-    <!--<dependency>-->
-      <!--<groupId>org.apache.hadoop</groupId>-->
-      <!--<artifactId>hadoop-core</artifactId>-->
-      <!--<version>1.2.0</version>-->
-    <!--</dependency>-->
 
     <dependency>
       <groupId>org.apache.hadoop</groupId>
@@ -83,7 +72,17 @@
     </dependency>
 
 
+  <!--<dependency>-->
+      <!--<groupId>org.json4s</groupId>-->
+      <!--<artifactId>json4s-jackson_${scala.version}</artifactId>-->
+      <!--<version>3.2.11</version>-->
+  <!--</dependency>-->
 
+    <dependency>
+      <groupId>org.json4s</groupId>
+      <artifactId>json4s-jackson_2.10</artifactId>
+      <version>3.2.11</version>
+    </dependency>
 
 
   </dependencies>
