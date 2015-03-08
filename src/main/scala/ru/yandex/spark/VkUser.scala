@@ -1,5 +1,8 @@
 package ru.yandex.spark
 
+import java.nio.charset.StandardCharsets
+import java.nio.file.{Paths, Files}
+
 import scala.io.Source
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
@@ -291,8 +294,22 @@ object VkUser {
     res
   }
 
-  def restoreFromJson(jObject: JObject): User = {
-    val res = Extraction.extract(jObject)
-    res
+  def restoreFromJson(jValue: JValue): User = {
+    jValue.extract[User]
   }
+
+  def restoreFromJsonString(jsonString: String): User = {
+    restoreFromJson(parse(jsonString))
+  }
+
+  def restoreFromJsonFile(path: String): User = {
+    val str = scala.io.Source.fromFile(path).mkString
+    restoreFromJsonString(str)
+  }
+
+  def storeUser(user: User, path : String, extesion : String = ".txt"): Unit = {
+    Files.write( Paths.get(path + "\\" + user.id + extesion ),
+      pretty(getJsonRepresentation(user)).getBytes(StandardCharsets.UTF_8))
+  }
+
 }
