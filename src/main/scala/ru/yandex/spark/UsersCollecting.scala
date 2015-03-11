@@ -11,6 +11,7 @@ import org.json4s.jackson.JsonMethods._
 object UsersCollecting {
 
   implicit val formats = DefaultFormats
+  val usersPerIteration = 1000
 
   def main(args: Array[String]): Unit = {
 
@@ -33,20 +34,23 @@ object UsersCollecting {
       "1"
 
     var idsToLoad = sc.parallelize(List(startId))
+    var loadingQueue = sc.parallelize(List[String]())
     var loadedIds = sc.parallelize(List[String]())
 
     for( i <- 0 until iterations) {
+      val currentUsers = idsToLoad.map(u => VkUser.addExtraInformation(User(u)))
+      // load Users
 
-        val currentUsers = idsToLoad.map(u => VkUser.addExtraInformation(User(u)))
-        // load Users
+      loadedIds = loadedIds.union(currentUsers.map(u => u.id))
 
-        loadedIds = loadedIds.union(currentUsers.map(u => u.id))
-        val friends = currentUsers.flatMap(u => u.friends).distinct()
-        idsToLoad = friends.map(x => "" + x).subtract(loadedIds)
-        // update downloading queue
+      val friends = currentUsers.flatMap(u => u.friends).distinct()
+      loadingQueue = friends.map(x => "" + x).subtract(loadedIds)
+      idsToLoad = sc.parallelize(loadingQueue.take(usersPerIteration))
+      loadingQueue.subtract(idsToLoad)
+      // update downloading queue
 
-        currentUsers.foreach(u => VkUser.storeUser(u, storageDirectory))
-        // storing on disc
+      currentUsers.foreach(u => VkUser.storeUser(u, storageDirectory))
+      // storing on disc
     }
 
     println("success!")
