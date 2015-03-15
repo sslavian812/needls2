@@ -8,7 +8,6 @@ import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 
-
 case class User(
                  id: String,
                  generalInformation: GeneralInformation = GeneralInformation(),
@@ -18,13 +17,32 @@ case class User(
                  wall_count: Int = Int.MinValue,
                  albums_count: Int = Int.MinValue,
                  friends: List[Long] = List.empty,
-                 subscriptions: List[Long] = List.empty
-)
+                 subscriptions: List[Long] = List.empty,
+                 wall_content: List[PostInformation] = List.empty, //
+                 education: EducationInfo = EducationInfo() //
+                 )
+
+case class PostInformation(
+                            text: String = "",
+                            likes: Int = Int.MinValue,
+                            reposts: Int = Int.MinValue,
+                            owner_id: Long = 0
+                            )
+
+case class EducationInfo(
+                          university_name: String = ""
+                          )
 
 case class GroupInformation(
                              sub_groups_count: Int = Int.MinValue,
-                             groups: List[Long] = List.empty
+                             groups: List[Long] = List.empty,
+                             groups_detail: List[GroupText] = List.empty
                              )
+
+case class GroupText(
+                      name: String = "",
+                      description: String = ""
+                      )
 
 case class GeneralInformation(
                                idLong: Long = 0,
@@ -68,6 +86,8 @@ object VkUser {
     changedUser = tr(changedUser, { user => addWallInformation(user)})
     changedUser = tr(changedUser, { user => addPhotoInformation(user)})
     changedUser = tr(changedUser, { user => addFriendsInformation(user)})
+    changedUser = tr(changedUser, { user => addGroupDetails(user)})
+    changedUser = tr(changedUser, { user => addEducationInfo(user)})
     changedUser
   }
 
@@ -105,6 +125,25 @@ object VkUser {
     parsedUser
   }
 
+  def addGroupDetails(user: User) = {
+    val s = Source.fromURL(getUrlForMethod("groups.getById")
+      + addParameter("gids", user.groupInformation.groups.mkString(","))
+      + addParameter("fields", "description,name")).mkString
+
+    val parsed: JValue = parse(s)
+
+
+    val arr = (parsed \ "response").extract[List[JValue]].map(el =>
+      (GroupText((el \ "name").extract[String], (el \ "description").extract[String])))
+
+    val parsedUser = tr(user, {
+      user => user.copy(groupInformation = user.groupInformation.copy(groups_detail = arr))
+    })
+
+    parsedUser
+  }
+
+
   def addFollowersInformation(user: User) = {
     val s = Source.fromURL(getUrlForMethod("users.getFollowers")
       + addParameter("user_id", user.generalInformation.idLong.toString)).mkString
@@ -112,8 +151,23 @@ object VkUser {
 
     val parsedUser = tr(user, {
       user =>
-        user.copy(followers_count = (
-          (parsed \ "response" \ "count").extract[Int]))
+        user.copy(followers_count =
+          (parsed \ "response" \ "count").extract[Int])
+    })
+
+    parsedUser
+  }
+
+  def addEducationInfo(user: User) = {
+    val s = Source.fromURL(getUrlForMethod("users.getFollowers")
+      + addParameter("user_id", user.id)
+      + addParameter("fields", "education")).mkString
+    val parsed: JValue = parse(s)
+
+    val parsedUser = tr(user, {
+      user =>
+        user.copy(education = user.education.copy(university_name =
+          (parsed \ "response" \ "university_name").extract[String]))
     })
 
     parsedUser
@@ -137,11 +191,21 @@ object VkUser {
       + addParameter("owner_id", user.generalInformation.idLong.toString)).mkString
     val parsed: JValue = parse(s)
 
-    val parsedUser = tr(user, {
+    var parsedUser = tr(user, {
       user =>
         user.copy(wall_count = (
           (parsed \ "response" \ "count").extract[Int]))
     })
+
+    val arr = (parsed \ "response").extract[List[JValue]]
+    val arr2 = arr diff List(arr(0)) // todo is there a better way to remove first element?
+    val posts = arr2.map(post => PostInformation(
+        (post \ "text").extract[String],
+        (post \ "likes" \ "count").extract[Int],
+        (post \ "reposts" \ "count").extract[Int],
+        (post \ "from_id").extract[Long]))
+
+    parsedUser = user.copy(wall_content = posts)
 
     parsedUser
   }
@@ -289,7 +353,7 @@ object VkUser {
     }
   }
 
-  def getJsonRepresentation(user: User): JObject  = {
+  def getJsonRepresentation(user: User): JObject = {
     val res = Extraction.decompose(user).asInstanceOf[JObject]
     res
   }
@@ -307,8 +371,8 @@ object VkUser {
     restoreFromJsonString(str)
   }
 
-  def storeUser(user: User, path : String, extesion : String = ".txt"): Unit = {
-    Files.write( Paths.get(path + "\\" + user.id + extesion ),
+  def storeUser(user: User, path: String, extesion: String = ".txt"): Unit = {
+    Files.write(Paths.get(path + "\\" + user.id + extesion),
       pretty(getJsonRepresentation(user)).getBytes(StandardCharsets.UTF_8))
   }
 
