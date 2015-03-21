@@ -371,7 +371,7 @@ object VkUser {
     restoreFromJsonString(str)
   }
 
-  def storeUser(user: User, path: String, extesion: String = ".txt"): Unit = {
+  def storeUser(user: User, path: String, extesion: String = ".json"): Unit = {
     Files.write(Paths.get(path + "\\" + user.id + extesion),
       pretty(getJsonRepresentation(user)).getBytes(StandardCharsets.UTF_8))
   }
