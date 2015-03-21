@@ -59,8 +59,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46532437" vertical-offset="0" max-vertical-offset="894">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.52348995" vertical-offset="0" max-vertical-offset="894">
+              <caret line="18" column="49" selection-start-line="15" selection-start-column="5" selection-end-line="18" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -634,12 +634,12 @@
       <workItem from="1425544043293" duration="7589000" />
       <workItem from="1425660206116" duration="44018000" />
       <workItem from="1426192519831" duration="38374000" />
-      <workItem from="1426947169499" duration="4920000" />
+      <workItem from="1426947169499" duration="4996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132844000" />
+    <option name="totallyTimeSpent" value="132920000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1100,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46532437" vertical-offset="0" max-vertical-offset="894">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.52348995" vertical-offset="0" max-vertical-offset="894">
+          <caret line="18" column="49" selection-start-line="15" selection-start-column="5" selection-end-line="18" selection-end-column="49" />
           <folding />
         </state>
       </provider>
