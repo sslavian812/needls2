@@ -14,6 +14,8 @@ social network search
  <a href="https://www.elastic.co/"><b>elasticsearch</b></a>
  <br>
      <a href="https://github.com/jettro/elasticsearch-gui"> elasticsearch gui: </a>
-     ${elasticsearch root}/bin/plugin --install jettro/elasticsearch-gui
+     <br>
+
+     {elasticsearch root}/bin/plugin --install jettro/elasticsearch-gui
 
      http://localhost:9200/_plugin/gui/index.html
