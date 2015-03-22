@@ -19,3 +19,7 @@ social network search
      {elasticsearch root}/bin/plugin --install jettro/elasticsearch-gui
 
      http://localhost:9200/_plugin/gui/index.html
+     <br>
+     solr vs elasticsearch: http://solr-vs-elasticsearch.com/
+
+    <i>elasticsearch</i> folder contains some stuff for managing local elasticsearch index
