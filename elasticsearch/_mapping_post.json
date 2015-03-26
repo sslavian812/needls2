@@ -1,0 +1,30 @@
+{
+	"post": {
+		"_id": {
+			"path": "id"
+		},
+		"_parent": {
+			"type": "user"
+		},
+		"properties": {
+			"id": {
+				"type": "string",
+				"index": "not_analyzed"
+			},
+			"owner_id": {
+				"type": "long"
+			},
+			"likes": {
+				"type": "long"
+			},
+			"reposts": {
+				"type": "long"
+			},
+			"text": {
+				"type": "string",
+				"index": "analyzed",
+				"analyzer": "russian"
+			}
+		}
+	}
+}

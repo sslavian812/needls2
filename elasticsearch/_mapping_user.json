@@ -7,93 +7,73 @@
 			"albums_count": {
 				"type": "long"
 			},
-			"education": {
-				"type": "object"
-			},
 			"followers_count": {
 				"type": "long"
 			},
 			"friends": {
 				"type": "long"
 			},
-			"generalInformation": {
-				"properties": {
-					"can_see_all_posts": {
-						"type": "long"
-					},
-					"can_see_audio": {
-						"type": "long"
-					},
-					"city": {
-						"type": "long"
-					},
-					"country": {
-						"type": "long"
-					},
-					"education_form": {
-						"type": "long"
-					},
-					"graduation_year": {
-						"type": "long"
-					},
-					"has_mobile": {
-						"type": "long"
-					},
-					"idLong": {
-						"type": "long"
-					},
-					"monthOfBirth": {
-						"type": "long"
-					},
-					"occupation": {
-						"type": "long"
-					},
-					"relation": {
-						"type": "long"
-					},
-					"sex": {
-						"type": "long"
-					},
-					"site": {
-						"type": "long"
-					},
-					"twitter": {
-						"type": "long"
-					},
-					"uidIsChanged": {
-						"type": "long"
-					},
-					"university": {
-						"type": "long"
-					},
-					"yearOfBirth": {
-						"type": "long"
-					}
-				}
+			"can_see_all_posts": {
+				"type": "long"
 			},
-			"groupInformation": {
-				"properties": {
-					"groups": {
-						"type": "long"
-					},
-					"groups_detail": {
-						"properties": {
-							"description": {
-								"type": "string",
-								"index": "analyzed",
-								"analyzer": "russian"
-							},
-							"name": {
-								"type": "string",
-								"index": "analyzed",
-								"analyzer": "russian"
-							}
-						}
-					},
-					"sub_groups_count": {
-						"type": "long"
-					}
-				}
+			"can_see_audio": {
+				"type": "long"
+			},
+			"city": {
+				"type": "long"
+			},
+			"country": {
+				"type": "long"
+			},
+			"education_form": {
+				"type": "long"
+			},
+			"graduation_year": {
+				"type": "long"
+			},
+			"has_mobile": {
+				"type": "long"
+			},
+			"idLong": {
+				"type": "long"
+			},
+			"monthOfBirth": {
+				"type": "long"
+			},
+			"occupation": {
+				"type": "long"
+			},
+			"relation": {
+				"type": "long"
+			},
+			"sex": {
+				"type": "long"
+			},
+			"site": {
+				"type": "long"
+			},
+			"twitter": {
+				"type": "long"
+			},
+			"uidIsChanged": {
+				"type": "long"
+			},
+			"university": {
+				"type": "long"
+			},
+			"university_name": {
+				"type": "string",
+				"index": "analyzed",
+				"analyzer": "russian"
+			},
+			"yearOfBirth": {
+				"type": "long"
+			},
+			"sub_groups_count": {
+				"type": "long"
+			},
+			"groups": {
+				"type": "long"
 			},
 			"id": {
 				"type": "string",
@@ -101,24 +81,6 @@
 			},
 			"sub_user_count": {
 				"type": "long"
-			},
-			"wall_content": {
-				"properties": {
-					"likes": {
-						"type": "long"
-					},
-					"owner_id": {
-						"type": "long"
-					},
-					"reposts": {
-						"type": "long"
-					},
-					"text": {
-						"type": "string",
-						"index": "analyzed",
-						"analyzer": "russian"
-					}
-				}
 			},
 			"wall_count": {
 				"type": "long"
