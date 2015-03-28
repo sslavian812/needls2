@@ -18,31 +18,33 @@ case class User(
                  albums_count: Int = Int.MinValue,
                  friends: List[Long] = List.empty,
                  subscriptions: List[Long] = List.empty,
-                 wall_content: List[PostInformation] = List.empty, //
-                 education: EducationInfo = EducationInfo() //
+                 wall_content: List[PostInformation] = List.empty,
+                 university_name: String = "",
+                 first_name: String = "",
+                 last_name: String = ""
                  )
 
 case class PostInformation(
+                            id: Long,
                             text: String = "",
                             likes: Int = Int.MinValue,
                             reposts: Int = Int.MinValue,
                             owner_id: Long = 0
                             )
 
-case class EducationInfo(
-                          university_name: String = ""
-                          )
 
 case class GroupInformation(
                              sub_groups_count: Int = Int.MinValue,
                              groups: List[Long] = List.empty,
-                             groups_detail: List[GroupText] = List.empty
+                             groups_detail: List[Group] = List.empty
                              )
 
-case class GroupText(
-                      name: String = "",
-                      description: String = ""
-                      )
+case class Group(
+                  id: Long = 0,
+                  name: String = "",
+                  description: String = "",
+                  members_count: Long = 0
+                  )
 
 case class GeneralInformation(
                                idLong: Long = 0,
@@ -87,7 +89,6 @@ object VkUser {
     changedUser = tr(changedUser, { user => addPhotoInformation(user)})
     changedUser = tr(changedUser, { user => addFriendsInformation(user)})
     changedUser = tr(changedUser, { user => addGroupDetails(user)})
-    changedUser = tr(changedUser, { user => addEducationInfo(user)})
     changedUser
   }
 
@@ -128,13 +129,16 @@ object VkUser {
   def addGroupDetails(user: User) = {
     val s = Source.fromURL(getUrlForMethod("groups.getById")
       + addParameter("gids", user.groupInformation.groups.mkString(","))
-      + addParameter("fields", "description,name")).mkString
+      + addParameter("fields", "description,name,gid,members_count")).mkString
 
     val parsed: JValue = parse(s)
 
 
     val arr = (parsed \ "response").extract[List[JValue]].map(el =>
-      (GroupText((el \ "name").extract[String], (el \ "description").extract[String])))
+      Group((el \ "gid").extract[Long],
+        (el \ "name").extract[String],
+        (el \ "description").extract[String],
+        (el \ "members_count").extract[Long]))
 
     val parsedUser = tr(user, {
       user => user.copy(groupInformation = user.groupInformation.copy(groups_detail = arr))
@@ -153,21 +157,6 @@ object VkUser {
       user =>
         user.copy(followers_count =
           (parsed \ "response" \ "count").extract[Int])
-    })
-
-    parsedUser
-  }
-
-  def addEducationInfo(user: User) = {
-    val s = Source.fromURL(getUrlForMethod("users.getFollowers")
-      + addParameter("user_id", user.id)
-      + addParameter("fields", "education")).mkString
-    val parsed: JValue = parse(s)
-
-    val parsedUser = tr(user, {
-      user =>
-        user.copy(education = user.education.copy(university_name =
-          (parsed \ "response" \ "university_name").extract[String]))
     })
 
     parsedUser
@@ -200,6 +189,7 @@ object VkUser {
     val arr = (parsed \ "response").extract[List[JValue]]
     val arr2 = arr diff List(arr(0)) // todo is there a better way to remove first element?
     val posts = arr2.map(post => PostInformation(
+        (post \ "id").extract[Long],
         (post \ "text").extract[String],
         (post \ "likes" \ "count").extract[Int],
         (post \ "reposts" \ "count").extract[Int],
@@ -225,7 +215,7 @@ object VkUser {
   }
 
   def addGeneralInformation(user: User) = {
-    val whatToReturn = "id,sex,bdate,city,country,photo_50,photo_100,photo_200_orig,photo_200,photo_400_orig,photo_max,photo_max_orig,photo_id,online,online_mobile,domain,has_mobile,contacts,connections,site,education,universities,schools,can_post,can_see_all_posts,can_see_audio,can_write_private_message,status,last_seen,relation,relatives,counters,screen_name,maiden_name,timezone,occupation,activities,interests,music,movies,tv,books,games,about,quotes"
+    val whatToReturn = "id,sex,bdate,city,country,photo_50,photo_100,photo_200_orig,photo_200,photo_400_orig,photo_max,photo_max_orig,photo_id,online,online_mobile,domain,has_mobile,contacts,connections,site,education,universities,schools,can_post,can_see_all_posts,can_see_audio,can_write_private_message,status,last_seen,relation,relatives,counters,screen_name,maiden_name,timezone,occupation,activities,interests,music,movies,tv,books,games,about,quotes,first_name,last_name,university_name"
     val s = Source.fromURL(
       getUrlForMethod("users.get") +
         addParameter("fields", whatToReturn) +
@@ -337,6 +327,24 @@ object VkUser {
       user =>
         user.copy(generalInformation = user.generalInformation.copy(relation = (
           (parsed \ "response" \ "relation").extract[Int])))
+    })
+
+    parsedUser = tr(parsedUser, {
+      user =>
+        user.copy(first_name =
+          (parsed \ "response" \ "first_name").extract[String])
+    })
+
+    parsedUser = tr(parsedUser, {
+      user =>
+        user.copy(last_name =
+          (parsed \ "response" \ "last_name").extract[String])
+    })
+
+    parsedUser = tr(parsedUser, {
+      user =>
+        user.copy(university_name =
+          (parsed \ "response" \ "university_name").extract[String])
     })
 
     parsedUser
