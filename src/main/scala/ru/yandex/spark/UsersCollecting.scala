@@ -11,7 +11,7 @@ import org.json4s.jackson.JsonMethods._
 object UsersCollecting {
 
   implicit val formats = DefaultFormats
-  val usersPerIteration = 100
+  val usersPerIteration = 10
 
   def main(args: Array[String]): Unit = {
 

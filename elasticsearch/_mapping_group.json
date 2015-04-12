@@ -14,11 +14,13 @@
 			},
 			"description": {
 				"type": "string",
-				"index": "analyzed"
+				"index": "analyzed",
+				"analyzer": "russian"
 			},
 			"name": {
 				"type": "string",
-				"index": "analyzed"
+				"index": "analyzed",
+				"analyzer": "russian"
 			},
 			"members_count": {
 				"type": "long"
