@@ -4,7 +4,8 @@
 			"path": "id"
 		},
 		"_parent": {
-			"type": "user"
+			"type": "user",
+			"store": "yes"
 		},
 		"properties": {
 			"id": {
@@ -23,7 +24,7 @@
 			"text": {
 				"type": "string",
 				"index": "analyzed",
-				"analyzer": "russian"
+				"analyzer": "english"
 			}
 		}
 	}

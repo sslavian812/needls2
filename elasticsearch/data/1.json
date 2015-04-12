@@ -336,12 +336,12 @@
     "owner_id" : 1
   }, {
     "id" : 45617,
-    "text" : "В результате событий, последовавших за изменением акционерного состава ВКонтакте в апреле 2013 года, свобода действий генерального директора в управлении компанией значительно сократилась. Становится все сложнее отстаивать те принципы, которые некогда были заложены в основу нашей социальной сети. <br><br>Вслед за моим братом, который в середине прошлого года покинул должность технического директора, я снимаю с себя обязанности генерального директора ВКонтакте. <br><br>Спасибо всем пользователям, которые поддерживали и вдохновляли меня эти 7 лет. Я буду и дальше участвовать в жизни ВКонтакте на правах основателя, однако формальные посты в новых условиях мне не интересны. <br><br>В контакте с Вами,<br>Павел Дуров",
+    "text" : "If the number_of_fragments value is set to 0 then no fragments are produced, instead the whole content of the field is returned, and of course it is highlighted. This can be very handy if short texts (like document title or address) need to be highlighted but no fragmentation is required. Note that fragment_size is ignored in this case.",
     "likes" : 128503,
     "reposts" : 8551,
     "owner_id" : 1
   } ],
-  "university_name" : "СПбГУ",
+  "university_name" : "If the number_of_fragments value is set to 0 then no fragments are produced, instead the whole content of the field is returned, and of course it is highlighted. This can be very handy if short texts (like document title or address) need to be highlighted but no fragmentation is required. Note that fragment_size is ignored in this case.",
   "first_name" : "Павел",
   "last_name" : "Дуров"
 }

@@ -36,6 +36,8 @@ object UsersCollecting {
     var idsToLoad = sc.parallelize(List(startId))
     var loadingQueue = sc.parallelize(List[String]())
     var loadedIds = sc.parallelize(List[String]())
+    ElasticSearchHelper.init()
+
 
     for( i <- 0 until iterations) {
       val currentUsers = idsToLoad.map(u => VkUser.addExtraInformation(User(u)))
@@ -49,8 +51,10 @@ object UsersCollecting {
       loadingQueue.subtract(idsToLoad)
       // update downloading queue
 
-      currentUsers.foreach(u => VkUser.storeUser(u, storageDirectory))
-      // storing on disc
+      //currentUsers.foreach(u => VkUser.storeUser(u, storageDirectory))
+      currentUsers.foreach(u =>  ElasticSearchHelper.addUser(u))
+
+      println(usersPerIteration + " more users added to index")
     }
 
     println("success!")

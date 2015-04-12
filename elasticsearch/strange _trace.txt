@@ -1,0 +1,824 @@
+"C:\Program Files\Java\jdk1.8.0_20\bin\java" -Didea.launcher.port=7535 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.0.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext\zipfs.jar;C:\Dropbox\yandex\needls2\target\classes;C:\Program Files (x86)\scala\lib\scala-actors-migration.jar;C:\Program Files (x86)\scala\lib\scala-actors.jar;C:\Program Files (x86)\scala\lib\scala-library.jar;C:\Program Files (x86)\scala\lib\scala-reflect.jar;C:\Program Files (x86)\scala\lib\scala-swing.jar;C:\Users\viacheslav\.m2\repository\org\scala-lang\scala-library\2.10.4\scala-library-2.10.4.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-core_2.10\1.1.1\spark-core_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\apache\hadoop\hadoop-client\1.0.4\hadoop-client-1.0.4.jar;C:\Users\viacheslav\.m2\repository\org\apache\hadoop\hadoop-core\1.0.4\hadoop-core-1.0.4.jar;C:\Users\viacheslav\.m2\repository\org\apache\commons\commons-math\2.1\commons-math-2.1.jar;C:\Users\viacheslav\.m2\repository\hsqldb\hsqldb\1.8.0.10\hsqldb-1.8.0.10.jar;C:\Users\viacheslav\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\viacheslav\.m2\repository\net\java\dev\jets3t\jets3t\0.7.1\jets3t-0.7.1.jar;C:\Users\viacheslav\.m2\repository\org\apache\curator\curator-recipes\2.4.0\curator-recipes-2.4.0.jar;C:\Users\viacheslav\.m2\repository\org\apache\curator\curator-framework\2.4.0\curator-framework-2.4.0.jar;C:\Users\viacheslav\.m2\repository\org\apache\curator\curator-client\2.4.0\curator-client-2.4.0.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-plus\8.1.14.v20131031\jetty-plus-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\orbit\javax.transaction\1.1.1.v201105210645\javax.transaction-1.1.1.v201105210645.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-webapp\8.1.14.v20131031\jetty-webapp-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-xml\8.1.14.v20131031\jetty-xml-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-servlet\8.1.14.v20131031\jetty-servlet-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-jndi\8.1.14.v20131031\jetty-jndi-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\orbit\javax.mail.glassfish\1.4.1.v201005082020\javax.mail.glassfish-1.4.1.v201005082020.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\orbit\javax.activation\1.1.0.v201105071233\javax.activation-1.1.0.v201105071233.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-security\8.1.14.v20131031\jetty-security-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-util\8.1.14.v20131031\jetty-util-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-server\8.1.14.v20131031\jetty-server-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\orbit\javax.servlet\3.0.0.v201112011016\javax.servlet-3.0.0.v201112011016.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-continuation\8.1.14.v20131031\jetty-continuation-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-http\8.1.14.v20131031\jetty-http-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\org\eclipse\jetty\jetty-io\8.1.14.v20131031\jetty-io-8.1.14.v20131031.jar;C:\Users\viacheslav\.m2\repository\com\google\guava\guava\14.0.1\guava-14.0.1.jar;C:\Users\viacheslav\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\viacheslav\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\viacheslav\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\viacheslav\.m2\repository\org\slf4j\jul-to-slf4j\1.7.5\jul-to-slf4j-1.7.5.jar;C:\Users\viacheslav\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.5\jcl-over-slf4j-1.7.5.jar;C:\Users\viacheslav\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\viacheslav\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\viacheslav\.m2\repository\com\ning\compress-lzf\1.0.0\compress-lzf-1.0.0.jar;C:\Users\viacheslav\.m2\repository\org\xerial\snappy\snappy-java\1.0.5.3\snappy-java-1.0.5.3.jar;C:\Users\viacheslav\.m2\repository\net\jpountz\lz4\lz4\1.2.0\lz4-1.2.0.jar;C:\Users\viacheslav\.m2\repository\com\twitter\chill_2.10\0.3.6\chill_2.10-0.3.6.jar;C:\Users\viacheslav\.m2\repository\com\esotericsoftware\kryo\kryo\2.21\kryo-2.21.jar;C:\Users\viacheslav\.m2\repository\com\esotericsoftware\reflectasm\reflectasm\1.07\reflectasm-1.07-shaded.jar;C:\Users\viacheslav\.m2\repository\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;C:\Users\viacheslav\.m2\repository\org\objenesis\objenesis\1.2\objenesis-1.2.jar;C:\Users\viacheslav\.m2\repository\com\twitter\chill-java\0.3.6\chill-java-0.3.6.jar;C:\Users\viacheslav\.m2\repository\commons-net\commons-net\2.2\commons-net-2.2.jar;C:\Users\viacheslav\.m2\repository\org\spark-project\akka\akka-remote_2.10\2.2.3-shaded-protobuf\akka-remote_2.10-2.2.3-shaded-protobuf.jar;C:\Users\viacheslav\.m2\repository\org\spark-project\akka\akka-actor_2.10\2.2.3-shaded-protobuf\akka-actor_2.10-2.2.3-shaded-protobuf.jar;C:\Users\viacheslav\.m2\repository\com\typesafe\config\1.0.2\config-1.0.2.jar;C:\Users\viacheslav\.m2\repository\io\netty\netty\3.6.6.Final\netty-3.6.6.Final.jar;C:\Users\viacheslav\.m2\repository\org\spark-project\protobuf\protobuf-java\2.4.1-shaded\protobuf-java-2.4.1-shaded.jar;C:\Users\viacheslav\.m2\repository\org\uncommons\maths\uncommons-maths\1.2.2a\uncommons-maths-1.2.2a.jar;C:\Users\viacheslav\.m2\repository\org\spark-project\akka\akka-slf4j_2.10\2.2.3-shaded-protobuf\akka-slf4j_2.10-2.2.3-shaded-protobuf.jar;C:\Users\viacheslav\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\viacheslav\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\viacheslav\.m2\repository\org\apache\mesos\mesos\0.18.1\mesos-0.18.1-shaded-protobuf.jar;C:\Users\viacheslav\.m2\repository\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;C:\Users\viacheslav\.m2\repository\com\clearspring\analytics\stream\2.7.0\stream-2.7.0.jar;C:\Users\viacheslav\.m2\repository\com\codahale\metrics\metrics-core\3.0.0\metrics-core-3.0.0.jar;C:\Users\viacheslav\.m2\repository\com\codahale\metrics\metrics-jvm\3.0.0\metrics-jvm-3.0.0.jar;C:\Users\viacheslav\.m2\repository\com\codahale\metrics\metrics-json\3.0.0\metrics-json-3.0.0.jar;C:\Users\viacheslav\.m2\repository\com\codahale\metrics\metrics-graphite\3.0.0\metrics-graphite-3.0.0.jar;C:\Users\viacheslav\.m2\repository\org\tachyonproject\tachyon-client\0.5.0\tachyon-client-0.5.0.jar;C:\Users\viacheslav\.m2\repository\org\tachyonproject\tachyon\0.5.0\tachyon-0.5.0.jar;C:\Users\viacheslav\.m2\repository\org\spark-project\pyrolite\2.0.1\pyrolite-2.0.1.jar;C:\Users\viacheslav\.m2\repository\net\sf\py4j\py4j\0.8.2.1\py4j-0.8.2.1.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-bagel_2.10\1.1.1\spark-bagel_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-mllib_2.10\1.1.1\spark-mllib_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\scalanlp\breeze_2.10\0.9\breeze_2.10-0.9.jar;C:\Users\viacheslav\.m2\repository\org\scalanlp\breeze-macros_2.10\0.3.1\breeze-macros_2.10-0.3.1.jar;C:\Users\viacheslav\.m2\repository\com\github\fommil\netlib\core\1.1.2\core-1.1.2.jar;C:\Users\viacheslav\.m2\repository\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\viacheslav\.m2\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\viacheslav\.m2\repository\com\github\rwl\jtransforms\2.4.0\jtransforms-2.4.0.jar;C:\Users\viacheslav\.m2\repository\org\spire-math\spire_2.10\0.7.4\spire_2.10-0.7.4.jar;C:\Users\viacheslav\.m2\repository\org\spire-math\spire-macros_2.10\0.7.4\spire-macros_2.10-0.7.4.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-repl_2.10\1.1.1\spark-repl_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\scala-lang\scala-compiler\2.10.4\scala-compiler-2.10.4.jar;C:\Users\viacheslav\.m2\repository\org\scala-lang\scala-reflect\2.10.4\scala-reflect-2.10.4.jar;C:\Users\viacheslav\.m2\repository\org\scala-lang\jline\2.10.4\jline-2.10.4.jar;C:\Users\viacheslav\.m2\repository\org\fusesource\jansi\jansi\1.4\jansi-1.4.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-streaming_2.10\1.1.1\spark-streaming_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-sql_2.10\1.1.1\spark-sql_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-catalyst_2.10\1.1.1\spark-catalyst_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\scalamacros\quasiquotes_2.10\2.0.1\quasiquotes_2.10-2.0.1.jar;C:\Users\viacheslav\.m2\repository\com\twitter\parquet-column\1.4.3\parquet-column-1.4.3.jar;C:\Users\viacheslav\.m2\repository\com\twitter\parquet-common\1.4.3\parquet-common-1.4.3.jar;C:\Users\viacheslav\.m2\repository\com\twitter\parquet-encoding\1.4.3\parquet-encoding-1.4.3.jar;C:\Users\viacheslav\.m2\repository\com\twitter\parquet-generator\1.4.3\parquet-generator-1.4.3.jar;C:\Users\viacheslav\.m2\repository\com\twitter\parquet-hadoop\1.4.3\parquet-hadoop-1.4.3.jar;C:\Users\viacheslav\.m2\repository\com\twitter\parquet-format\2.0.0\parquet-format-2.0.0.jar;C:\Users\viacheslav\.m2\repository\com\twitter\parquet-jackson\1.4.3\parquet-jackson-1.4.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\spark\spark-graphx_2.10\1.1.1\spark-graphx_2.10-1.1.1.jar;C:\Users\viacheslav\.m2\repository\org\jblas\jblas\1.2.3\jblas-1.2.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\hadoop\hadoop-common\2.4.0\hadoop-common-2.4.0.jar;C:\Users\viacheslav\.m2\repository\org\apache\hadoop\hadoop-annotations\2.4.0\hadoop-annotations-2.4.0.jar;C:\Program Files\Java\jdk1.8.0_20\lib\tools.jar;C:\Users\viacheslav\.m2\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\viacheslav\.m2\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;C:\Users\viacheslav\.m2\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;C:\Users\viacheslav\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\viacheslav\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Users\viacheslav\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\viacheslav\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\viacheslav\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\viacheslav\.m2\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;C:\Users\viacheslav\.m2\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;C:\Users\viacheslav\.m2\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;C:\Users\viacheslav\.m2\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;C:\Users\viacheslav\.m2\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;C:\Users\viacheslav\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;C:\Users\viacheslav\.m2\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;C:\Users\viacheslav\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\viacheslav\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\viacheslav\.m2\repository\org\codehaus\jackson\jackson-jaxrs\1.8.3\jackson-jaxrs-1.8.3.jar;C:\Users\viacheslav\.m2\repository\org\codehaus\jackson\jackson-xc\1.8.3\jackson-xc-1.8.3.jar;C:\Users\viacheslav\.m2\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;C:\Users\viacheslav\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\viacheslav\.m2\repository\tomcat\jasper-compiler\5.5.23\jasper-compiler-5.5.23.jar;C:\Users\viacheslav\.m2\repository\tomcat\jasper-runtime\5.5.23\jasper-runtime-5.5.23.jar;C:\Users\viacheslav\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\viacheslav\.m2\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;C:\Users\viacheslav\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\viacheslav\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\viacheslav\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;C:\Users\viacheslav\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\viacheslav\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\viacheslav\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;C:\Users\viacheslav\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.8.8\jackson-core-asl-1.8.8.jar;C:\Users\viacheslav\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.8.8\jackson-mapper-asl-1.8.8.jar;C:\Users\viacheslav\.m2\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;C:\Users\viacheslav\.m2\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;C:\Users\viacheslav\.m2\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;C:\Users\viacheslav\.m2\repository\org\apache\hadoop\hadoop-auth\2.4.0\hadoop-auth-2.4.0.jar;C:\Users\viacheslav\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\viacheslav\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\viacheslav\.m2\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;C:\Users\viacheslav\.m2\repository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;C:\Users\viacheslav\.m2\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;C:\Users\viacheslav\.m2\repository\org\tukaani\xz\1.0\xz-1.0.jar;C:\Users\viacheslav\.m2\repository\org\elasticsearch\elasticsearch\1.4.4\elasticsearch-1.4.4.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-core\4.10.3\lucene-core-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-analyzers-common\4.10.3\lucene-analyzers-common-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-queries\4.10.3\lucene-queries-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-memory\4.10.3\lucene-memory-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-highlighter\4.10.3\lucene-highlighter-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-queryparser\4.10.3\lucene-queryparser-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-sandbox\4.10.3\lucene-sandbox-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-suggest\4.10.3\lucene-suggest-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-misc\4.10.3\lucene-misc-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-join\4.10.3\lucene-join-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-grouping\4.10.3\lucene-grouping-4.10.3.jar;C:\Users\viacheslav\.m2\repository\org\apache\lucene\lucene-spatial\4.10.3\lucene-spatial-4.10.3.jar;C:\Users\viacheslav\.m2\repository\com\spatial4j\spatial4j\0.4.1\spatial4j-0.4.1.jar;C:\Users\viacheslav\.m2\repository\org\antlr\antlr-runtime\3.5\antlr-runtime-3.5.jar;C:\Users\viacheslav\.m2\repository\org\ow2\asm\asm\4.1\asm-4.1.jar;C:\Users\viacheslav\.m2\repository\org\ow2\asm\asm-commons\4.1\asm-commons-4.1.jar;C:\Users\viacheslav\.m2\repository\org\json4s\json4s-jackson_2.10\3.2.11\json4s-jackson_2.10-3.2.11.jar;C:\Users\viacheslav\.m2\repository\org\json4s\json4s-core_2.10\3.2.11\json4s-core_2.10-3.2.11.jar;C:\Users\viacheslav\.m2\repository\org\json4s\json4s-ast_2.10\3.2.11\json4s-ast_2.10-3.2.11.jar;C:\Users\viacheslav\.m2\repository\org\scala-lang\scalap\2.10.0\scalap-2.10.0.jar;C:\Users\viacheslav\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.3.1\jackson-databind-2.3.1.jar;C:\Users\viacheslav\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.3.0\jackson-annotations-2.3.0.jar;C:\Users\viacheslav\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.3.1\jackson-core-2.3.1.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.0.2\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain ru.yandex.spark.UsersCollecting D:\tmp\data 200 1
+15/04/12 17:35:06 INFO spark.SecurityManager: Changing view acls to: viacheslav
+15/04/12 17:35:06 INFO spark.SecurityManager: Changing modify acls to: viacheslav
+15/04/12 17:35:06 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(viacheslav); users with modify permissions: Set(viacheslav)
+15/04/12 17:35:07 INFO slf4j.Slf4jLogger: Slf4jLogger started
+15/04/12 17:35:07 INFO Remoting: Starting remoting
+15/04/12 17:35:08 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@viacheslavPC.Dlink:7367]
+15/04/12 17:35:08 INFO Remoting: Remoting now listens on addresses: [akka.tcp://sparkDriver@viacheslavPC.Dlink:7367]
+15/04/12 17:35:08 INFO util.Utils: Successfully started service 'sparkDriver' on port 7367.
+15/04/12 17:35:08 INFO spark.SparkEnv: Registering MapOutputTracker
+15/04/12 17:35:08 INFO spark.SparkEnv: Registering BlockManagerMaster
+15/04/12 17:35:08 INFO storage.DiskBlockManager: Created local directory at C:\Users\VIACHE~1\AppData\Local\Temp\spark-local-20150412173508-b93b
+15/04/12 17:35:08 INFO util.Utils: Successfully started service 'Connection manager for block manager' on port 7370.
+15/04/12 17:35:08 INFO network.ConnectionManager: Bound socket to port 7370 with id = ConnectionManagerId(viacheslavPC.Dlink,7370)
+15/04/12 17:35:08 INFO storage.MemoryStore: MemoryStore started with capacity 969.8 MB
+15/04/12 17:35:08 INFO storage.BlockManagerMaster: Trying to register BlockManager
+15/04/12 17:35:08 INFO storage.BlockManagerMasterActor: Registering block manager viacheslavPC.Dlink:7370 with 969.8 MB RAM, BlockManagerId(<driver>, viacheslavPC.Dlink, 7370, 0)
+15/04/12 17:35:08 INFO storage.BlockManagerMaster: Registered BlockManager
+15/04/12 17:35:08 INFO spark.HttpFileServer: HTTP File server directory is C:\Users\VIACHE~1\AppData\Local\Temp\spark-f591ceb2-664d-4026-8202-17491d82a13b
+15/04/12 17:35:08 INFO spark.HttpServer: Starting HTTP Server
+15/04/12 17:35:08 INFO server.Server: jetty-8.1.14.v20131031
+15/04/12 17:35:08 INFO server.AbstractConnector: Started SocketConnector@0.0.0.0:7371
+15/04/12 17:35:08 INFO util.Utils: Successfully started service 'HTTP file server' on port 7371.
+15/04/12 17:35:09 INFO server.Server: jetty-8.1.14.v20131031
+15/04/12 17:35:09 INFO server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+15/04/12 17:35:09 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+15/04/12 17:35:09 INFO ui.SparkUI: Started SparkUI at http://viacheslavPC.Dlink:4040
+15/04/12 17:35:09 INFO util.AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@viacheslavPC.Dlink:7367/user/HeartbeatReceiver
+15/04/12 17:35:09 INFO elasticsearch.node: [Sidewinder] version[1.4.4], pid[5072], build[c88f77f/2015-02-19T13:05:36Z]
+15/04/12 17:35:09 INFO elasticsearch.node: [Sidewinder] initializing ...
+15/04/12 17:35:09 INFO elasticsearch.plugins: [Sidewinder] loaded [], sites []
+15/04/12 17:35:13 INFO elasticsearch.node: [Sidewinder] initialized
+15/04/12 17:35:13 INFO elasticsearch.node: [Sidewinder] starting ...
+15/04/12 17:35:13 INFO elasticsearch.transport: [Sidewinder] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/192.168.0.89:9301]}
+15/04/12 17:35:13 INFO elasticsearch.discovery: [Sidewinder] elasticsearch/MGxOMlJtSY6iLTUXrVWAew
+15/04/12 17:35:16 INFO cluster.service: [Sidewinder] detected_master [Tattoo][rrwx0lioRfeVNNfzHMLmvg][viacheslavPC][inet[/192.168.0.89:9300]], added {[Tattoo][rrwx0lioRfeVNNfzHMLmvg][viacheslavPC][inet[/192.168.0.89:9300]],}, reason: zen-disco-receive(from master [[Tattoo][rrwx0lioRfeVNNfzHMLmvg][viacheslavPC][inet[/192.168.0.89:9300]]])
+15/04/12 17:35:17 INFO elasticsearch.http: [Sidewinder] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/192.168.0.89:9201]}
+15/04/12 17:35:17 INFO elasticsearch.node: [Sidewinder] started
+15/04/12 17:35:17 INFO spark.SparkContext: Starting job: take at UsersCollecting.scala:50
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Registering RDD 7 (distinct at UsersCollecting.scala:48)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Registering RDD 11 (subtract at UsersCollecting.scala:49)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Registering RDD 12 (subtract at UsersCollecting.scala:49)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Got job 0 (take at UsersCollecting.scala:50) with 1 output partitions (allowLocal=true)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Final stage: Stage 0(take at UsersCollecting.scala:50)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Parents of final stage: List(Stage 2, Stage 3)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Missing parents: List(Stage 2, Stage 3)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Submitting Stage 1 (MappedRDD[7] at distinct at UsersCollecting.scala:48), which has no missing parents
+15/04/12 17:35:17 INFO storage.MemoryStore: ensureFreeSpace(3176) called with curMem=0, maxMem=1016950947
+15/04/12 17:35:17 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 3.1 KB, free 969.8 MB)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 1 (MappedRDD[7] at distinct at UsersCollecting.scala:48)
+15/04/12 17:35:17 INFO scheduler.TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Submitting Stage 3 (MappedRDD[12] at subtract at UsersCollecting.scala:49), which has no missing parents
+15/04/12 17:35:17 INFO storage.MemoryStore: ensureFreeSpace(3296) called with curMem=3176, maxMem=1016950947
+15/04/12 17:35:17 INFO storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 3.2 KB, free 969.8 MB)
+15/04/12 17:35:17 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from Stage 3 (MappedRDD[12] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:17 INFO scheduler.TaskSchedulerImpl: Adding task set 3.0 with 2 tasks
+15/04/12 17:35:17 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 0, localhost, PROCESS_LOCAL, 1192 bytes)
+15/04/12 17:35:17 INFO executor.Executor: Running task 0.0 in stage 1.0 (TID 0)
+Downloading user 1
+15/04/12 17:35:19 INFO executor.Executor: Finished task 0.0 in stage 1.0 (TID 0). 814 bytes result sent to driver
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 3.0 (TID 1, localhost, PROCESS_LOCAL, 1297 bytes)
+15/04/12 17:35:19 INFO executor.Executor: Running task 0.0 in stage 3.0 (TID 1)
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 0) in 1571 ms on localhost (1/1)
+15/04/12 17:35:19 INFO executor.Executor: Finished task 0.0 in stage 3.0 (TID 1). 814 bytes result sent to driver
+15/04/12 17:35:19 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 3.0 (TID 2, localhost, PROCESS_LOCAL, 1301 bytes)
+15/04/12 17:35:19 INFO executor.Executor: Running task 1.0 in stage 3.0 (TID 2)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Stage 1 (distinct at UsersCollecting.scala:48) finished in 1,592 s
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 3.0 (TID 1) in 15 ms on localhost (1/2)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: running: Set(Stage 3)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: waiting: Set(Stage 0, Stage 2)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: failed: Set()
+Downloading user 1
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Missing parents for Stage 0: List(Stage 2, Stage 3)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Missing parents for Stage 2: List()
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Submitting Stage 2 (MappedRDD[11] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:35:19 INFO storage.MemoryStore: ensureFreeSpace(2744) called with curMem=6472, maxMem=1016950947
+15/04/12 17:35:19 INFO storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 2.7 KB, free 969.8 MB)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 2 (MappedRDD[11] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:19 INFO scheduler.TaskSchedulerImpl: Adding task set 2.0 with 1 tasks
+15/04/12 17:35:19 INFO executor.Executor: Finished task 1.0 in stage 3.0 (TID 2). 814 bytes result sent to driver
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 2.0 (TID 3, localhost, PROCESS_LOCAL, 982 bytes)
+15/04/12 17:35:19 INFO executor.Executor: Running task 0.0 in stage 2.0 (TID 3)
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 3.0 (TID 2) in 518 ms on localhost (2/2)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Stage 3 (subtract at UsersCollecting.scala:49) finished in 2,085 s
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: running: Set(Stage 2)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: waiting: Set(Stage 0)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:19 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Missing parents for Stage 0: List(Stage 2)
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 5 ms
+15/04/12 17:35:19 INFO executor.Executor: Finished task 0.0 in stage 2.0 (TID 3). 1005 bytes result sent to driver
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 2.0 (TID 3) in 113 ms on localhost (1/1)
+15/04/12 17:35:19 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Stage 2 (subtract at UsersCollecting.scala:49) finished in 0,586 s
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: running: Set()
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: waiting: Set(Stage 0)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Missing parents for Stage 0: List()
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Submitting Stage 0 (MappedRDD[14] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:35:19 INFO storage.MemoryStore: ensureFreeSpace(2232) called with curMem=9216, maxMem=1016950947
+15/04/12 17:35:19 INFO storage.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 2.2 KB, free 969.8 MB)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 0 (MappedRDD[14] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:19 INFO scheduler.TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 4, localhost, PROCESS_LOCAL, 1839 bytes)
+15/04/12 17:35:19 INFO executor.Executor: Running task 0.0 in stage 0.0 (TID 4)
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 2 blocks
+15/04/12 17:35:19 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 0 ms
+15/04/12 17:35:19 INFO executor.Executor: Finished task 0.0 in stage 0.0 (TID 4). 918 bytes result sent to driver
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Stage 0 (take at UsersCollecting.scala:50) finished in 0,038 s
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 4) in 29 ms on localhost (1/1)
+15/04/12 17:35:19 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+15/04/12 17:35:19 INFO spark.SparkContext: Job finished: take at UsersCollecting.scala:50, took 2.506141629 s
+15/04/12 17:35:19 INFO spark.SparkContext: Starting job: foreach at UsersCollecting.scala:55
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Got job 1 (foreach at UsersCollecting.scala:55) with 1 output partitions (allowLocal=false)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Final stage: Stage 4(foreach at UsersCollecting.scala:55)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Parents of final stage: List()
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Missing parents: List()
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Submitting Stage 4 (MappedRDD[3] at map at UsersCollecting.scala:43), which has no missing parents
+15/04/12 17:35:19 INFO storage.MemoryStore: ensureFreeSpace(2088) called with curMem=11448, maxMem=1016950947
+15/04/12 17:35:19 INFO storage.MemoryStore: Block broadcast_4 stored as values in memory (estimated size 2.0 KB, free 969.8 MB)
+15/04/12 17:35:19 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 4 (MappedRDD[3] at map at UsersCollecting.scala:43)
+15/04/12 17:35:19 INFO scheduler.TaskSchedulerImpl: Adding task set 4.0 with 1 tasks
+15/04/12 17:35:19 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 4.0 (TID 5, localhost, PROCESS_LOCAL, 1203 bytes)
+15/04/12 17:35:19 INFO executor.Executor: Running task 0.0 in stage 4.0 (TID 5)
+Downloading user 1
+Indexing user: 1
+15/04/12 17:35:20 INFO executor.Executor: Finished task 0.0 in stage 4.0 (TID 5). 585 bytes result sent to driver
+15/04/12 17:35:20 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 4.0 (TID 5) in 1033 ms on localhost (1/1)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Stage 4 (foreach at UsersCollecting.scala:55) finished in 1,033 s
+15/04/12 17:35:20 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+15/04/12 17:35:20 INFO spark.SparkContext: Job finished: foreach at UsersCollecting.scala:55, took 1.061301419 s
+10 more users added to index
+15/04/12 17:35:20 INFO spark.SparkContext: Starting job: take at UsersCollecting.scala:50
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Registering RDD 24 (distinct at UsersCollecting.scala:48)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Registering RDD 28 (subtract at UsersCollecting.scala:49)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Registering RDD 29 (subtract at UsersCollecting.scala:49)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Got job 2 (take at UsersCollecting.scala:50) with 1 output partitions (allowLocal=true)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Final stage: Stage 5(take at UsersCollecting.scala:50)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Parents of final stage: List(Stage 7, Stage 8)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Missing parents: List(Stage 7, Stage 8)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Submitting Stage 6 (MappedRDD[24] at distinct at UsersCollecting.scala:48), which has no missing parents
+15/04/12 17:35:20 INFO storage.MemoryStore: ensureFreeSpace(3176) called with curMem=13536, maxMem=1016950947
+15/04/12 17:35:20 INFO storage.MemoryStore: Block broadcast_5 stored as values in memory (estimated size 3.1 KB, free 969.8 MB)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 6 (MappedRDD[24] at distinct at UsersCollecting.scala:48)
+15/04/12 17:35:20 INFO scheduler.TaskSchedulerImpl: Adding task set 6.0 with 1 tasks
+Downloading user 907
+15/04/12 17:35:20 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 6.0 (TID 6, localhost, PROCESS_LOCAL, 1280 bytes)
+15/04/12 17:35:20 INFO executor.Executor: Running task 0.0 in stage 6.0 (TID 6)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Submitting Stage 8 (MappedRDD[29] at subtract at UsersCollecting.scala:49), which has no missing parents
+15/04/12 17:35:20 INFO storage.MemoryStore: ensureFreeSpace(3600) called with curMem=16712, maxMem=1016950947
+15/04/12 17:35:20 INFO storage.MemoryStore: Block broadcast_6 stored as values in memory (estimated size 3.5 KB, free 969.8 MB)
+15/04/12 17:35:20 INFO scheduler.DAGScheduler: Submitting 3 missing tasks from Stage 8 (MappedRDD[29] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:20 INFO scheduler.TaskSchedulerImpl: Adding task set 8.0 with 3 tasks
+Downloading user 20720185
+Downloading user 29825869
+Downloading user 1666872
+Downloading user 294029
+Downloading user 1708231
+Downloading user 961430
+Downloading user 2791
+Downloading user 1824209
+Downloading user 407032
+15/04/12 17:35:26 INFO executor.Executor: Finished task 0.0 in stage 6.0 (TID 6). 1005 bytes result sent to driver
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 8.0 (TID 7, localhost, PROCESS_LOCAL, 1312 bytes)
+15/04/12 17:35:26 INFO executor.Executor: Running task 0.0 in stage 8.0 (TID 7)
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: Stage 6 (distinct at UsersCollecting.scala:48) finished in 5,308 s
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: running: Set(Stage 8)
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: waiting: Set(Stage 5, Stage 7)
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 6.0 (TID 6) in 5306 ms on localhost (1/1)
+15/04/12 17:35:26 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+15/04/12 17:35:26 INFO executor.Executor: Finished task 0.0 in stage 8.0 (TID 7). 814 bytes result sent to driver
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 8.0 (TID 8, localhost, PROCESS_LOCAL, 1316 bytes)
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 8.0 (TID 7) in 13 ms on localhost (1/3)
+15/04/12 17:35:26 INFO executor.Executor: Running task 1.0 in stage 8.0 (TID 8)
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: Missing parents for Stage 5: List(Stage 7, Stage 8)
+Downloading user 1
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: Missing parents for Stage 7: List()
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: Submitting Stage 7 (MappedRDD[28] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:35:26 INFO storage.MemoryStore: ensureFreeSpace(2744) called with curMem=20312, maxMem=1016950947
+15/04/12 17:35:26 INFO storage.MemoryStore: Block broadcast_7 stored as values in memory (estimated size 2.7 KB, free 969.8 MB)
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 7 (MappedRDD[28] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:26 INFO scheduler.TaskSchedulerImpl: Adding task set 7.0 with 1 tasks
+15/04/12 17:35:26 INFO storage.BlockManager: Removing broadcast 5
+15/04/12 17:35:26 INFO storage.BlockManager: Removing block broadcast_5
+15/04/12 17:35:26 INFO storage.MemoryStore: Block broadcast_5 of size 3176 dropped from memory (free 1016931067)
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned broadcast 5
+15/04/12 17:35:26 INFO storage.BlockManager: Removing broadcast 4
+15/04/12 17:35:26 INFO storage.BlockManager: Removing block broadcast_4
+15/04/12 17:35:26 INFO storage.MemoryStore: Block broadcast_4 of size 2088 dropped from memory (free 1016933155)
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned broadcast 4
+15/04/12 17:35:26 INFO storage.BlockManager: Removing broadcast 3
+15/04/12 17:35:26 INFO storage.BlockManager: Removing block broadcast_3
+15/04/12 17:35:26 INFO storage.MemoryStore: Block broadcast_3 of size 2232 dropped from memory (free 1016935387)
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned broadcast 3
+15/04/12 17:35:26 INFO storage.BlockManager: Removing broadcast 2
+15/04/12 17:35:26 INFO storage.BlockManager: Removing block broadcast_2
+15/04/12 17:35:26 INFO storage.MemoryStore: Block broadcast_2 of size 2744 dropped from memory (free 1016938131)
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned broadcast 2
+15/04/12 17:35:26 INFO storage.BlockManager: Removing broadcast 1
+15/04/12 17:35:26 INFO storage.BlockManager: Removing block broadcast_1
+15/04/12 17:35:26 INFO storage.MemoryStore: Block broadcast_1 of size 3296 dropped from memory (free 1016941427)
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned broadcast 1
+15/04/12 17:35:26 INFO storage.BlockManager: Removing broadcast 0
+15/04/12 17:35:26 INFO storage.BlockManager: Removing block broadcast_0
+15/04/12 17:35:26 INFO storage.MemoryStore: Block broadcast_0 of size 3176 dropped from memory (free 1016944603)
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned broadcast 0
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned shuffle 2
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned shuffle 1
+15/04/12 17:35:26 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 2
+15/04/12 17:35:26 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 1
+15/04/12 17:35:26 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 0
+15/04/12 17:35:26 INFO spark.ContextCleaner: Cleaned shuffle 0
+15/04/12 17:35:26 INFO executor.Executor: Finished task 1.0 in stage 8.0 (TID 8). 814 bytes result sent to driver
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 7.0 (TID 9, localhost, PROCESS_LOCAL, 982 bytes)
+15/04/12 17:35:26 INFO executor.Executor: Running task 0.0 in stage 7.0 (TID 9)
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 8.0 (TID 8) in 499 ms on localhost (2/3)
+15/04/12 17:35:26 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:26 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:35:26 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 8.0 (TID 10, localhost, PROCESS_LOCAL, 1389 bytes)
+15/04/12 17:35:26 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 7.0 (TID 9) in 170 ms on localhost (1/1)
+15/04/12 17:35:26 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 7.0, whose tasks have all completed, from pool 
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: Stage 7 (subtract at UsersCollecting.scala:49) finished in 0,651 s
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: running: Set(Stage 8)
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: waiting: Set(Stage 5)
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:26 INFO scheduler.DAGScheduler: Missing parents for Stage 5: List(Stage 8)
+15/04/12 17:35:26 INFO executor.Executor: Finished task 0.0 in stage 7.0 (TID 9). 1005 bytes result sent to driver
+15/04/12 17:35:26 INFO executor.Executor: Running task 2.0 in stage 8.0 (TID 10)
+Downloading user 907
+Downloading user 20720185
+Downloading user 29825869
+Downloading user 1666872
+Downloading user 294029
+Downloading user 1708231
+Downloading user 961430
+Downloading user 2791
+Downloading user 1824209
+Downloading user 407032
+15/04/12 17:35:32 INFO executor.Executor: Finished task 2.0 in stage 8.0 (TID 10). 814 bytes result sent to driver
+15/04/12 17:35:32 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 8.0 (TID 10) in 5385 ms on localhost (3/3)
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Stage 8 (subtract at UsersCollecting.scala:49) finished in 11,352 s
+15/04/12 17:35:32 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 8.0, whose tasks have all completed, from pool 
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: running: Set()
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: waiting: Set(Stage 5)
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Missing parents for Stage 5: List()
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Submitting Stage 5 (MappedRDD[31] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:35:32 INFO storage.MemoryStore: ensureFreeSpace(2232) called with curMem=6344, maxMem=1016950947
+15/04/12 17:35:32 INFO storage.MemoryStore: Block broadcast_8 stored as values in memory (estimated size 2.2 KB, free 969.8 MB)
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 5 (MappedRDD[31] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:32 INFO scheduler.TaskSchedulerImpl: Adding task set 5.0 with 1 tasks
+15/04/12 17:35:32 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 5.0 (TID 11, localhost, PROCESS_LOCAL, 1839 bytes)
+15/04/12 17:35:32 INFO executor.Executor: Running task 0.0 in stage 5.0 (TID 11)
+15/04/12 17:35:32 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:32 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:35:32 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 0 ms
+15/04/12 17:35:32 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:32 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 2 non-empty blocks out of 3 blocks
+15/04/12 17:35:32 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 0 ms
+15/04/12 17:35:32 INFO executor.Executor: Finished task 0.0 in stage 5.0 (TID 11). 929 bytes result sent to driver
+15/04/12 17:35:32 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 5.0 (TID 11) in 28 ms on localhost (1/1)
+15/04/12 17:35:32 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Stage 5 (take at UsersCollecting.scala:50) finished in 0,029 s
+15/04/12 17:35:32 INFO spark.SparkContext: Job finished: take at UsersCollecting.scala:50, took 11.417371834 s
+15/04/12 17:35:32 INFO spark.SparkContext: Starting job: foreach at UsersCollecting.scala:55
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Got job 3 (foreach at UsersCollecting.scala:55) with 1 output partitions (allowLocal=false)
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Final stage: Stage 9(foreach at UsersCollecting.scala:55)
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Parents of final stage: List()
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Missing parents: List()
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Submitting Stage 9 (MappedRDD[20] at map at UsersCollecting.scala:43), which has no missing parents
+15/04/12 17:35:32 INFO storage.MemoryStore: ensureFreeSpace(2088) called with curMem=8576, maxMem=1016950947
+15/04/12 17:35:32 INFO storage.MemoryStore: Block broadcast_9 stored as values in memory (estimated size 2.0 KB, free 969.8 MB)
+15/04/12 17:35:32 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 9 (MappedRDD[20] at map at UsersCollecting.scala:43)
+15/04/12 17:35:32 INFO scheduler.TaskSchedulerImpl: Adding task set 9.0 with 1 tasks
+15/04/12 17:35:32 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 9.0 (TID 12, localhost, PROCESS_LOCAL, 1291 bytes)
+15/04/12 17:35:32 INFO executor.Executor: Running task 0.0 in stage 9.0 (TID 12)
+Downloading user 907
+Indexing user: 907
+no data of type postwill be indexed: no data provided
+Downloading user 20720185
+Indexing user: 20720185
+Downloading user 29825869
+Indexing user: 29825869
+15/04/12 17:35:34 INFO storage.BlockManager: Removing broadcast 8
+15/04/12 17:35:34 INFO storage.BlockManager: Removing block broadcast_8
+15/04/12 17:35:34 INFO storage.MemoryStore: Block broadcast_8 of size 2232 dropped from memory (free 1016942515)
+15/04/12 17:35:34 INFO spark.ContextCleaner: Cleaned broadcast 8
+15/04/12 17:35:34 INFO storage.BlockManager: Removing broadcast 7
+15/04/12 17:35:34 INFO storage.BlockManager: Removing block broadcast_7
+15/04/12 17:35:34 INFO storage.MemoryStore: Block broadcast_7 of size 2744 dropped from memory (free 1016945259)
+15/04/12 17:35:34 INFO spark.ContextCleaner: Cleaned broadcast 7
+15/04/12 17:35:34 INFO storage.BlockManager: Removing broadcast 6
+15/04/12 17:35:34 INFO storage.BlockManager: Removing block broadcast_6
+15/04/12 17:35:34 INFO storage.MemoryStore: Block broadcast_6 of size 3600 dropped from memory (free 1016948859)
+15/04/12 17:35:34 INFO spark.ContextCleaner: Cleaned broadcast 6
+Downloading user 1666872
+Indexing user: 1666872
+Downloading user 294029
+Indexing user: 294029
+no data of type postwill be indexed: no data provided
+Downloading user 1708231
+Indexing user: 1708231
+Downloading user 961430
+Indexing user: 961430
+Downloading user 2791
+Indexing user: 2791
+no data of type postwill be indexed: no data provided
+Downloading user 1824209
+Indexing user: 1824209
+Downloading user 407032
+Indexing user: 407032
+15/04/12 17:35:39 INFO executor.Executor: Finished task 0.0 in stage 9.0 (TID 12). 826 bytes result sent to driver
+15/04/12 17:35:39 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 9.0 (TID 12) in 6806 ms on localhost (1/1)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Stage 9 (foreach at UsersCollecting.scala:55) finished in 6,807 s
+15/04/12 17:35:39 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool 
+15/04/12 17:35:39 INFO spark.SparkContext: Job finished: foreach at UsersCollecting.scala:55, took 6.814021295 s
+10 more users added to index
+15/04/12 17:35:39 INFO spark.SparkContext: Starting job: take at UsersCollecting.scala:50
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Registering RDD 41 (distinct at UsersCollecting.scala:48)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Registering RDD 45 (subtract at UsersCollecting.scala:49)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Registering RDD 46 (subtract at UsersCollecting.scala:49)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Got job 4 (take at UsersCollecting.scala:50) with 1 output partitions (allowLocal=true)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Final stage: Stage 10(take at UsersCollecting.scala:50)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Parents of final stage: List(Stage 12, Stage 13)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Missing parents: List(Stage 12, Stage 13)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Submitting Stage 11 (MappedRDD[41] at distinct at UsersCollecting.scala:48), which has no missing parents
+15/04/12 17:35:39 INFO storage.MemoryStore: ensureFreeSpace(3176) called with curMem=2088, maxMem=1016950947
+15/04/12 17:35:39 INFO storage.MemoryStore: Block broadcast_10 stored as values in memory (estimated size 3.1 KB, free 969.8 MB)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 11 (MappedRDD[41] at distinct at UsersCollecting.scala:48)
+15/04/12 17:35:39 INFO scheduler.TaskSchedulerImpl: Adding task set 11.0 with 1 tasks
+Downloading user 67540
+15/04/12 17:35:39 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 11.0 (TID 13, localhost, PROCESS_LOCAL, 1291 bytes)
+15/04/12 17:35:39 INFO executor.Executor: Running task 0.0 in stage 11.0 (TID 13)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Submitting Stage 13 (MappedRDD[46] at subtract at UsersCollecting.scala:49), which has no missing parents
+15/04/12 17:35:39 INFO storage.MemoryStore: ensureFreeSpace(3904) called with curMem=5264, maxMem=1016950947
+15/04/12 17:35:39 INFO storage.MemoryStore: Block broadcast_11 stored as values in memory (estimated size 3.8 KB, free 969.8 MB)
+15/04/12 17:35:39 INFO scheduler.DAGScheduler: Submitting 4 missing tasks from Stage 13 (MappedRDD[46] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:39 INFO scheduler.TaskSchedulerImpl: Adding task set 13.0 with 4 tasks
+Downloading user 926307
+Downloading user 185081383
+Downloading user 1661062
+Downloading user 206731
+Downloading user 29227566
+Downloading user 1687691
+Downloading user 38514185
+Downloading user 167959851
+Downloading user 37629626
+15/04/12 17:35:45 INFO executor.Executor: Finished task 0.0 in stage 11.0 (TID 13). 814 bytes result sent to driver
+15/04/12 17:35:45 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 13.0 (TID 14, localhost, PROCESS_LOCAL, 1327 bytes)
+15/04/12 17:35:45 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 11.0 (TID 13) in 6808 ms on localhost (1/1)
+15/04/12 17:35:45 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 11.0, whose tasks have all completed, from pool 
+15/04/12 17:35:45 INFO executor.Executor: Running task 0.0 in stage 13.0 (TID 14)
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: Stage 11 (distinct at UsersCollecting.scala:48) finished in 6,809 s
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: running: Set(Stage 13)
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: waiting: Set(Stage 12, Stage 10)
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:45 INFO executor.Executor: Finished task 0.0 in stage 13.0 (TID 14). 814 bytes result sent to driver
+15/04/12 17:35:45 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 13.0 (TID 15, localhost, PROCESS_LOCAL, 1331 bytes)
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: Missing parents for Stage 12: List()
+15/04/12 17:35:45 INFO executor.Executor: Running task 1.0 in stage 13.0 (TID 15)
+15/04/12 17:35:45 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 13.0 (TID 14) in 5 ms on localhost (1/4)
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: Missing parents for Stage 10: List(Stage 12, Stage 13)
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: Submitting Stage 12 (MappedRDD[45] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:35:45 INFO storage.MemoryStore: ensureFreeSpace(2744) called with curMem=9168, maxMem=1016950947
+15/04/12 17:35:45 INFO storage.MemoryStore: Block broadcast_12 stored as values in memory (estimated size 2.7 KB, free 969.8 MB)
+15/04/12 17:35:45 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 12 (MappedRDD[45] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:45 INFO scheduler.TaskSchedulerImpl: Adding task set 12.0 with 1 tasks
+Downloading user 1
+15/04/12 17:35:46 INFO storage.BlockManager: Removing broadcast 10
+15/04/12 17:35:46 INFO storage.BlockManager: Removing block broadcast_10
+15/04/12 17:35:46 INFO storage.MemoryStore: Block broadcast_10 of size 3176 dropped from memory (free 1016942211)
+15/04/12 17:35:46 INFO spark.ContextCleaner: Cleaned broadcast 10
+15/04/12 17:35:46 INFO storage.BlockManager: Removing broadcast 9
+15/04/12 17:35:46 INFO storage.BlockManager: Removing block broadcast_9
+15/04/12 17:35:46 INFO storage.MemoryStore: Block broadcast_9 of size 2088 dropped from memory (free 1016944299)
+15/04/12 17:35:46 INFO spark.ContextCleaner: Cleaned broadcast 9
+15/04/12 17:35:46 INFO spark.ContextCleaner: Cleaned shuffle 5
+15/04/12 17:35:46 INFO spark.ContextCleaner: Cleaned shuffle 4
+15/04/12 17:35:46 INFO spark.ContextCleaner: Cleaned shuffle 3
+15/04/12 17:35:46 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 5
+15/04/12 17:35:46 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 3
+15/04/12 17:35:46 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 4
+15/04/12 17:35:46 INFO executor.Executor: Finished task 1.0 in stage 13.0 (TID 15). 1005 bytes result sent to driver
+15/04/12 17:35:46 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 12.0 (TID 16, localhost, PROCESS_LOCAL, 982 bytes)
+15/04/12 17:35:46 INFO executor.Executor: Running task 0.0 in stage 12.0 (TID 16)
+15/04/12 17:35:46 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 13.0 (TID 15) in 552 ms on localhost (2/4)
+15/04/12 17:35:46 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:46 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:35:46 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+Downloading user 907
+15/04/12 17:35:46 INFO executor.Executor: Finished task 0.0 in stage 12.0 (TID 16). 1005 bytes result sent to driver
+15/04/12 17:35:46 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 13.0 (TID 17, localhost, PROCESS_LOCAL, 1404 bytes)
+15/04/12 17:35:46 INFO executor.Executor: Running task 2.0 in stage 13.0 (TID 17)
+15/04/12 17:35:46 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 12.0 (TID 16) in 62 ms on localhost (1/1)
+15/04/12 17:35:46 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 12.0, whose tasks have all completed, from pool 
+15/04/12 17:35:46 INFO scheduler.DAGScheduler: Stage 12 (subtract at UsersCollecting.scala:49) finished in 0,607 s
+15/04/12 17:35:46 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:46 INFO scheduler.DAGScheduler: running: Set(Stage 13)
+15/04/12 17:35:46 INFO scheduler.DAGScheduler: waiting: Set(Stage 10)
+15/04/12 17:35:46 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:46 INFO scheduler.DAGScheduler: Missing parents for Stage 10: List(Stage 13)
+Downloading user 20720185
+Downloading user 29825869
+Downloading user 1666872
+Downloading user 294029
+Downloading user 1708231
+Downloading user 961430
+Downloading user 2791
+Downloading user 1824209
+Downloading user 407032
+15/04/12 17:35:52 INFO executor.Executor: Finished task 2.0 in stage 13.0 (TID 17). 814 bytes result sent to driver
+15/04/12 17:35:52 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 13.0 (TID 18, localhost, PROCESS_LOCAL, 1400 bytes)
+15/04/12 17:35:52 INFO executor.Executor: Running task 3.0 in stage 13.0 (TID 18)
+15/04/12 17:35:52 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 13.0 (TID 17) in 6053 ms on localhost (3/4)
+Downloading user 67540
+Downloading user 926307
+Downloading user 185081383
+Downloading user 1661062
+Downloading user 206731
+Downloading user 29227566
+Downloading user 1687691
+Downloading user 38514185
+15/04/12 17:35:57 INFO storage.BlockManager: Removing broadcast 12
+15/04/12 17:35:57 INFO storage.BlockManager: Removing block broadcast_12
+15/04/12 17:35:57 INFO storage.MemoryStore: Block broadcast_12 of size 2744 dropped from memory (free 1016947043)
+15/04/12 17:35:57 INFO spark.ContextCleaner: Cleaned broadcast 12
+Downloading user 167959851
+Downloading user 37629626
+15/04/12 17:35:58 INFO executor.Executor: Finished task 3.0 in stage 13.0 (TID 18). 1005 bytes result sent to driver
+15/04/12 17:35:58 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 13.0 (TID 18) in 6127 ms on localhost (4/4)
+15/04/12 17:35:58 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 13.0, whose tasks have all completed, from pool 
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Stage 13 (subtract at UsersCollecting.scala:49) finished in 19,583 s
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: running: Set()
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: waiting: Set(Stage 10)
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Missing parents for Stage 10: List()
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Submitting Stage 10 (MappedRDD[48] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:35:58 INFO storage.MemoryStore: ensureFreeSpace(2232) called with curMem=3904, maxMem=1016950947
+15/04/12 17:35:58 INFO storage.MemoryStore: Block broadcast_13 stored as values in memory (estimated size 2.2 KB, free 969.8 MB)
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 10 (MappedRDD[48] at subtract at UsersCollecting.scala:49)
+15/04/12 17:35:58 INFO scheduler.TaskSchedulerImpl: Adding task set 10.0 with 1 tasks
+15/04/12 17:35:58 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 10.0 (TID 19, localhost, PROCESS_LOCAL, 1839 bytes)
+15/04/12 17:35:58 INFO executor.Executor: Running task 0.0 in stage 10.0 (TID 19)
+15/04/12 17:35:58 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:58 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:35:58 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 0 ms
+15/04/12 17:35:58 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:35:58 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 3 non-empty blocks out of 4 blocks
+15/04/12 17:35:58 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+15/04/12 17:35:58 INFO executor.Executor: Finished task 0.0 in stage 10.0 (TID 19). 932 bytes result sent to driver
+15/04/12 17:35:58 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 10.0 (TID 19) in 24 ms on localhost (1/1)
+15/04/12 17:35:58 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 10.0, whose tasks have all completed, from pool 
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Stage 10 (take at UsersCollecting.scala:50) finished in 0,026 s
+15/04/12 17:35:58 INFO spark.SparkContext: Job finished: take at UsersCollecting.scala:50, took 19.650625453 s
+15/04/12 17:35:58 INFO spark.SparkContext: Starting job: foreach at UsersCollecting.scala:55
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Got job 5 (foreach at UsersCollecting.scala:55) with 1 output partitions (allowLocal=false)
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Final stage: Stage 14(foreach at UsersCollecting.scala:55)
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Parents of final stage: List()
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Missing parents: List()
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Submitting Stage 14 (MappedRDD[37] at map at UsersCollecting.scala:43), which has no missing parents
+15/04/12 17:35:58 INFO storage.MemoryStore: ensureFreeSpace(2088) called with curMem=6136, maxMem=1016950947
+15/04/12 17:35:58 INFO storage.MemoryStore: Block broadcast_14 stored as values in memory (estimated size 2.0 KB, free 969.8 MB)
+15/04/12 17:35:58 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 14 (MappedRDD[37] at map at UsersCollecting.scala:43)
+15/04/12 17:35:58 INFO scheduler.TaskSchedulerImpl: Adding task set 14.0 with 1 tasks
+15/04/12 17:35:58 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 14.0 (TID 20, localhost, PROCESS_LOCAL, 1302 bytes)
+15/04/12 17:35:58 INFO executor.Executor: Running task 0.0 in stage 14.0 (TID 20)
+Downloading user 67540
+Indexing user: 67540
+no data of type postwill be indexed: no data provided
+Downloading user 926307
+Indexing user: 926307
+Downloading user 185081383
+Indexing user: 185081383
+Downloading user 1661062
+Indexing user: 1661062
+no data of type postwill be indexed: no data provided
+Downloading user 206731
+Indexing user: 206731
+Downloading user 29227566
+Indexing user: 29227566
+Downloading user 1687691
+Indexing user: 1687691
+Downloading user 38514185
+Indexing user: 38514185
+Downloading user 167959851
+Indexing user: 167959851
+Downloading user 37629626
+Indexing user: 37629626
+15/04/12 17:36:04 INFO executor.Executor: Finished task 0.0 in stage 14.0 (TID 20). 585 bytes result sent to driver
+10 more users added to index
+15/04/12 17:36:04 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 14.0 (TID 20) in 6084 ms on localhost (1/1)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Stage 14 (foreach at UsersCollecting.scala:55) finished in 6,084 s
+15/04/12 17:36:04 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 14.0, whose tasks have all completed, from pool 
+15/04/12 17:36:04 INFO spark.SparkContext: Job finished: foreach at UsersCollecting.scala:55, took 6.090948854 s
+15/04/12 17:36:04 INFO spark.SparkContext: Starting job: take at UsersCollecting.scala:50
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Registering RDD 58 (distinct at UsersCollecting.scala:48)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Registering RDD 62 (subtract at UsersCollecting.scala:49)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Registering RDD 63 (subtract at UsersCollecting.scala:49)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Got job 6 (take at UsersCollecting.scala:50) with 1 output partitions (allowLocal=true)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Final stage: Stage 15(take at UsersCollecting.scala:50)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Parents of final stage: List(Stage 17, Stage 18)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Missing parents: List(Stage 17, Stage 18)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Submitting Stage 16 (MappedRDD[58] at distinct at UsersCollecting.scala:48), which has no missing parents
+15/04/12 17:36:04 INFO storage.MemoryStore: ensureFreeSpace(3176) called with curMem=8224, maxMem=1016950947
+15/04/12 17:36:04 INFO storage.MemoryStore: Block broadcast_15 stored as values in memory (estimated size 3.1 KB, free 969.8 MB)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 16 (MappedRDD[58] at distinct at UsersCollecting.scala:48)
+15/04/12 17:36:04 INFO scheduler.TaskSchedulerImpl: Adding task set 16.0 with 1 tasks
+15/04/12 17:36:04 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 16.0 (TID 21, localhost, PROCESS_LOCAL, 1294 bytes)
+15/04/12 17:36:04 INFO executor.Executor: Running task 0.0 in stage 16.0 (TID 21)
+Downloading user 20919765
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Submitting Stage 18 (MappedRDD[63] at subtract at UsersCollecting.scala:49), which has no missing parents
+15/04/12 17:36:04 INFO storage.MemoryStore: ensureFreeSpace(4200) called with curMem=11400, maxMem=1016950947
+15/04/12 17:36:04 INFO storage.MemoryStore: Block broadcast_16 stored as values in memory (estimated size 4.1 KB, free 969.8 MB)
+15/04/12 17:36:04 INFO scheduler.DAGScheduler: Submitting 5 missing tasks from Stage 18 (MappedRDD[63] at subtract at UsersCollecting.scala:49)
+15/04/12 17:36:04 INFO scheduler.TaskSchedulerImpl: Adding task set 18.0 with 5 tasks
+Downloading user 123947388
+Downloading user 12528350
+Downloading user 524458
+15/04/12 17:36:06 INFO spark.ContextCleaner: Cleaned shuffle 6
+15/04/12 17:36:06 INFO storage.BlockManager: Removing broadcast 14
+15/04/12 17:36:06 INFO storage.BlockManager: Removing block broadcast_14
+15/04/12 17:36:06 INFO storage.MemoryStore: Block broadcast_14 of size 2088 dropped from memory (free 1016937435)
+15/04/12 17:36:06 INFO spark.ContextCleaner: Cleaned broadcast 14
+15/04/12 17:36:06 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 6
+15/04/12 17:36:06 INFO storage.BlockManager: Removing broadcast 13
+15/04/12 17:36:06 INFO storage.BlockManager: Removing block broadcast_13
+15/04/12 17:36:06 INFO storage.MemoryStore: Block broadcast_13 of size 2232 dropped from memory (free 1016939667)
+15/04/12 17:36:06 INFO spark.ContextCleaner: Cleaned broadcast 13
+15/04/12 17:36:06 INFO storage.BlockManager: Removing broadcast 11
+15/04/12 17:36:06 INFO storage.BlockManager: Removing block broadcast_11
+15/04/12 17:36:06 INFO storage.MemoryStore: Block broadcast_11 of size 3904 dropped from memory (free 1016943571)
+15/04/12 17:36:06 INFO spark.ContextCleaner: Cleaned broadcast 11
+15/04/12 17:36:06 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 8
+15/04/12 17:36:06 INFO spark.ContextCleaner: Cleaned shuffle 8
+15/04/12 17:36:06 INFO spark.ContextCleaner: Cleaned shuffle 7
+15/04/12 17:36:06 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 7
+Downloading user 175656260
+Downloading user 765458
+Downloading user 2289139
+Downloading user 50151292
+Downloading user 180554971
+Downloading user 915658
+15/04/12 17:36:09 INFO executor.Executor: Finished task 0.0 in stage 16.0 (TID 21). 1005 bytes result sent to driver
+15/04/12 17:36:09 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 18.0 (TID 22, localhost, PROCESS_LOCAL, 1342 bytes)
+15/04/12 17:36:09 INFO executor.Executor: Running task 0.0 in stage 18.0 (TID 22)
+15/04/12 17:36:09 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 16.0 (TID 21) in 4575 ms on localhost (1/1)
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: Stage 16 (distinct at UsersCollecting.scala:48) finished in 4,575 s
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:36:09 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 16.0, whose tasks have all completed, from pool 
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: running: Set(Stage 18)
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: waiting: Set(Stage 15, Stage 17)
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:36:09 INFO executor.Executor: Finished task 0.0 in stage 18.0 (TID 22). 814 bytes result sent to driver
+15/04/12 17:36:09 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 18.0 (TID 23, localhost, PROCESS_LOCAL, 1346 bytes)
+15/04/12 17:36:09 INFO executor.Executor: Running task 1.0 in stage 18.0 (TID 23)
+15/04/12 17:36:09 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 18.0 (TID 22) in 4 ms on localhost (1/5)
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: Missing parents for Stage 15: List(Stage 17, Stage 18)
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: Missing parents for Stage 17: List()
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: Submitting Stage 17 (MappedRDD[62] at subtract at UsersCollecting.scala:49), which is now runnable
+Downloading user 1
+15/04/12 17:36:09 INFO storage.MemoryStore: ensureFreeSpace(2744) called with curMem=7376, maxMem=1016950947
+15/04/12 17:36:09 INFO storage.MemoryStore: Block broadcast_17 stored as values in memory (estimated size 2.7 KB, free 969.8 MB)
+15/04/12 17:36:09 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 17 (MappedRDD[62] at subtract at UsersCollecting.scala:49)
+15/04/12 17:36:09 INFO scheduler.TaskSchedulerImpl: Adding task set 17.0 with 1 tasks
+15/04/12 17:36:09 INFO executor.Executor: Finished task 1.0 in stage 18.0 (TID 23). 814 bytes result sent to driver
+15/04/12 17:36:09 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 17.0 (TID 24, localhost, PROCESS_LOCAL, 982 bytes)
+15/04/12 17:36:09 INFO executor.Executor: Running task 0.0 in stage 17.0 (TID 24)
+15/04/12 17:36:09 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 18.0 (TID 23) in 512 ms on localhost (2/5)
+15/04/12 17:36:09 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:36:09 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:36:09 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+15/04/12 17:36:10 INFO executor.Executor: Finished task 0.0 in stage 17.0 (TID 24). 1005 bytes result sent to driver
+15/04/12 17:36:10 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 18.0 (TID 25, localhost, PROCESS_LOCAL, 1419 bytes)
+15/04/12 17:36:10 INFO executor.Executor: Running task 2.0 in stage 18.0 (TID 25)
+15/04/12 17:36:10 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 17.0 (TID 24) in 51 ms on localhost (1/1)
+15/04/12 17:36:10 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 17.0, whose tasks have all completed, from pool 
+15/04/12 17:36:10 INFO scheduler.DAGScheduler: Stage 17 (subtract at UsersCollecting.scala:49) finished in 0,557 s
+15/04/12 17:36:10 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:36:10 INFO scheduler.DAGScheduler: running: Set(Stage 18)
+15/04/12 17:36:10 INFO scheduler.DAGScheduler: waiting: Set(Stage 15)
+15/04/12 17:36:10 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:36:10 INFO scheduler.DAGScheduler: Missing parents for Stage 15: List(Stage 18)
+Downloading user 907
+Downloading user 20720185
+Downloading user 29825869
+Downloading user 1666872
+Downloading user 294029
+Downloading user 1708231
+Downloading user 961430
+Downloading user 2791
+Downloading user 1824209
+Downloading user 407032
+15/04/12 17:36:16 INFO executor.Executor: Finished task 2.0 in stage 18.0 (TID 25). 1005 bytes result sent to driver
+15/04/12 17:36:16 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 18.0 (TID 26, localhost, PROCESS_LOCAL, 1415 bytes)
+15/04/12 17:36:16 INFO executor.Executor: Running task 3.0 in stage 18.0 (TID 26)
+15/04/12 17:36:16 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 18.0 (TID 25) in 6201 ms on localhost (3/5)
+Downloading user 67540
+Downloading user 926307
+Downloading user 185081383
+Downloading user 1661062
+Downloading user 206731
+Downloading user 29227566
+15/04/12 17:36:21 INFO storage.BlockManager: Removing broadcast 17
+15/04/12 17:36:21 INFO storage.BlockManager: Removing block broadcast_17
+15/04/12 17:36:21 INFO storage.MemoryStore: Block broadcast_17 of size 2744 dropped from memory (free 1016943571)
+15/04/12 17:36:21 INFO spark.ContextCleaner: Cleaned broadcast 17
+15/04/12 17:36:21 INFO storage.BlockManager: Removing broadcast 15
+15/04/12 17:36:21 INFO storage.BlockManager: Removing block broadcast_15
+15/04/12 17:36:21 INFO storage.MemoryStore: Block broadcast_15 of size 3176 dropped from memory (free 1016946747)
+15/04/12 17:36:21 INFO spark.ContextCleaner: Cleaned broadcast 15
+Downloading user 1687691
+Downloading user 38514185
+Downloading user 167959851
+Downloading user 37629626
+15/04/12 17:36:23 INFO executor.Executor: Finished task 3.0 in stage 18.0 (TID 26). 814 bytes result sent to driver
+15/04/12 17:36:23 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 18.0 (TID 27, localhost, PROCESS_LOCAL, 1403 bytes)
+15/04/12 17:36:23 INFO executor.Executor: Running task 4.0 in stage 18.0 (TID 27)
+15/04/12 17:36:23 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 18.0 (TID 26) in 7123 ms on localhost (4/5)
+Downloading user 20919765
+Downloading user 123947388
+Downloading user 12528350
+Downloading user 524458
+Downloading user 175656260
+Downloading user 765458
+Downloading user 2289139
+Downloading user 50151292
+Downloading user 180554971
+Downloading user 915658
+15/04/12 17:36:27 INFO executor.Executor: Finished task 4.0 in stage 18.0 (TID 27). 1005 bytes result sent to driver
+15/04/12 17:36:27 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 18.0 (TID 27) in 4562 ms on localhost (5/5)
+15/04/12 17:36:27 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 18.0, whose tasks have all completed, from pool 
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Stage 18 (subtract at UsersCollecting.scala:49) finished in 23,009 s
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: running: Set()
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: waiting: Set(Stage 15)
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Missing parents for Stage 15: List()
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Submitting Stage 15 (MappedRDD[65] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:36:27 INFO storage.MemoryStore: ensureFreeSpace(2232) called with curMem=4200, maxMem=1016950947
+15/04/12 17:36:27 INFO storage.MemoryStore: Block broadcast_18 stored as values in memory (estimated size 2.2 KB, free 969.8 MB)
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 15 (MappedRDD[65] at subtract at UsersCollecting.scala:49)
+15/04/12 17:36:27 INFO scheduler.TaskSchedulerImpl: Adding task set 15.0 with 1 tasks
+15/04/12 17:36:27 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 15.0 (TID 28, localhost, PROCESS_LOCAL, 1839 bytes)
+15/04/12 17:36:27 INFO executor.Executor: Running task 0.0 in stage 15.0 (TID 28)
+15/04/12 17:36:27 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:36:27 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:36:27 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+15/04/12 17:36:27 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:36:27 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 4 non-empty blocks out of 5 blocks
+15/04/12 17:36:27 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+15/04/12 17:36:27 INFO executor.Executor: Finished task 0.0 in stage 15.0 (TID 28). 935 bytes result sent to driver
+15/04/12 17:36:27 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 15.0 (TID 28) in 22 ms on localhost (1/1)
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Stage 15 (take at UsersCollecting.scala:50) finished in 0,023 s
+15/04/12 17:36:27 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 15.0, whose tasks have all completed, from pool 
+15/04/12 17:36:27 INFO spark.SparkContext: Job finished: take at UsersCollecting.scala:50, took 23.060241102 s
+15/04/12 17:36:27 INFO spark.SparkContext: Starting job: foreach at UsersCollecting.scala:55
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Got job 7 (foreach at UsersCollecting.scala:55) with 1 output partitions (allowLocal=false)
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Final stage: Stage 19(foreach at UsersCollecting.scala:55)
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Parents of final stage: List()
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Missing parents: List()
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Submitting Stage 19 (MappedRDD[54] at map at UsersCollecting.scala:43), which has no missing parents
+15/04/12 17:36:27 INFO storage.MemoryStore: ensureFreeSpace(2088) called with curMem=6432, maxMem=1016950947
+15/04/12 17:36:27 INFO storage.MemoryStore: Block broadcast_19 stored as values in memory (estimated size 2.0 KB, free 969.8 MB)
+15/04/12 17:36:27 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 19 (MappedRDD[54] at map at UsersCollecting.scala:43)
+15/04/12 17:36:27 INFO scheduler.TaskSchedulerImpl: Adding task set 19.0 with 1 tasks
+15/04/12 17:36:27 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 19.0 (TID 29, localhost, PROCESS_LOCAL, 1305 bytes)
+15/04/12 17:36:27 INFO executor.Executor: Running task 0.0 in stage 19.0 (TID 29)
+Downloading user 20919765
+Indexing user: 20919765
+Downloading user 123947388
+Indexing user: 123947388
+Downloading user 12528350
+Indexing user: 12528350
+Downloading user 524458
+Indexing user: 524458
+Downloading user 175656260
+Indexing user: 175656260
+Downloading user 765458
+Indexing user: 765458
+no data of type postwill be indexed: no data provided
+Downloading user 2289139
+Indexing user: 2289139
+no data of type postwill be indexed: no data provided
+Downloading user 50151292
+Indexing user: 50151292
+no data of type postwill be indexed: no data provided
+Downloading user 180554971
+Indexing user: 180554971
+Downloading user 915658
+Indexing user: 915658
+15/04/12 17:36:32 INFO executor.Executor: Finished task 0.0 in stage 19.0 (TID 29). 585 bytes result sent to driver
+15/04/12 17:36:32 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 19.0 (TID 29) in 4307 ms on localhost (1/1)
+15/04/12 17:36:32 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 19.0, whose tasks have all completed, from pool 
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Stage 19 (foreach at UsersCollecting.scala:55) finished in 4,307 s
+15/04/12 17:36:32 INFO spark.SparkContext: Job finished: foreach at UsersCollecting.scala:55, took 4.315604666 s
+no data of type groupwill be indexed: no data provided
+10 more users added to index
+15/04/12 17:36:32 INFO spark.SparkContext: Starting job: take at UsersCollecting.scala:50
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Registering RDD 75 (distinct at UsersCollecting.scala:48)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Registering RDD 79 (subtract at UsersCollecting.scala:49)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Registering RDD 80 (subtract at UsersCollecting.scala:49)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Got job 8 (take at UsersCollecting.scala:50) with 1 output partitions (allowLocal=true)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Final stage: Stage 20(take at UsersCollecting.scala:50)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Parents of final stage: List(Stage 22, Stage 23)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Missing parents: List(Stage 22, Stage 23)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Submitting Stage 21 (MappedRDD[75] at distinct at UsersCollecting.scala:48), which has no missing parents
+15/04/12 17:36:32 INFO storage.MemoryStore: ensureFreeSpace(3176) called with curMem=8520, maxMem=1016950947
+15/04/12 17:36:32 INFO storage.MemoryStore: Block broadcast_20 stored as values in memory (estimated size 3.1 KB, free 969.8 MB)
+Downloading user 1674378
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 21 (MappedRDD[75] at distinct at UsersCollecting.scala:48)
+15/04/12 17:36:32 INFO scheduler.TaskSchedulerImpl: Adding task set 21.0 with 1 tasks
+15/04/12 17:36:32 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 21.0 (TID 30, localhost, PROCESS_LOCAL, 1297 bytes)
+15/04/12 17:36:32 INFO executor.Executor: Running task 0.0 in stage 21.0 (TID 30)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Submitting Stage 23 (MappedRDD[80] at subtract at UsersCollecting.scala:49), which has no missing parents
+15/04/12 17:36:32 INFO storage.MemoryStore: ensureFreeSpace(4504) called with curMem=11696, maxMem=1016950947
+15/04/12 17:36:32 INFO storage.MemoryStore: Block broadcast_21 stored as values in memory (estimated size 4.4 KB, free 969.8 MB)
+15/04/12 17:36:32 INFO scheduler.DAGScheduler: Submitting 6 missing tasks from Stage 23 (MappedRDD[80] at subtract at UsersCollecting.scala:49)
+15/04/12 17:36:32 INFO scheduler.TaskSchedulerImpl: Adding task set 23.0 with 6 tasks
+Downloading user 901004
+Downloading user 1673048
+15/04/12 17:36:33 INFO storage.BlockManager: Removing broadcast 19
+15/04/12 17:36:33 INFO storage.BlockManager: Removing block broadcast_19
+15/04/12 17:36:33 INFO storage.MemoryStore: Block broadcast_19 of size 2088 dropped from memory (free 1016936835)
+15/04/12 17:36:33 INFO spark.ContextCleaner: Cleaned broadcast 19
+15/04/12 17:36:33 INFO storage.BlockManager: Removing broadcast 18
+15/04/12 17:36:33 INFO storage.BlockManager: Removing block broadcast_18
+15/04/12 17:36:33 INFO storage.MemoryStore: Block broadcast_18 of size 2232 dropped from memory (free 1016939067)
+15/04/12 17:36:33 INFO spark.ContextCleaner: Cleaned broadcast 18
+15/04/12 17:36:33 INFO storage.BlockManager: Removing broadcast 16
+15/04/12 17:36:33 INFO storage.BlockManager: Removing block broadcast_16
+15/04/12 17:36:33 INFO storage.MemoryStore: Block broadcast_16 of size 4200 dropped from memory (free 1016943267)
+15/04/12 17:36:33 INFO spark.ContextCleaner: Cleaned broadcast 16
+15/04/12 17:36:33 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 11
+15/04/12 17:36:33 INFO spark.ContextCleaner: Cleaned shuffle 11
+15/04/12 17:36:33 INFO spark.ContextCleaner: Cleaned shuffle 10
+15/04/12 17:36:33 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 9
+15/04/12 17:36:33 INFO storage.ShuffleBlockManager: Deleted all files for shuffle 10
+15/04/12 17:36:33 INFO spark.ContextCleaner: Cleaned shuffle 9
+Downloading user 33674071
+Downloading user 183190886
+Downloading user 3400999
+Downloading user 188268335
+Downloading user 155345980
+Downloading user 49577441
+Downloading user 181246461
+15/04/12 17:36:37 INFO executor.Executor: Finished task 0.0 in stage 21.0 (TID 30). 1005 bytes result sent to driver
+15/04/12 17:36:37 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 23.0 (TID 31, localhost, PROCESS_LOCAL, 1357 bytes)
+15/04/12 17:36:37 INFO executor.Executor: Running task 0.0 in stage 23.0 (TID 31)
+15/04/12 17:36:37 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 21.0 (TID 30) in 5268 ms on localhost (1/1)
+15/04/12 17:36:37 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 21.0, whose tasks have all completed, from pool 
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: Stage 21 (distinct at UsersCollecting.scala:48) finished in 5,270 s
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: running: Set(Stage 23)
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: waiting: Set(Stage 20, Stage 22)
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:36:37 INFO executor.Executor: Finished task 0.0 in stage 23.0 (TID 31). 814 bytes result sent to driver
+15/04/12 17:36:37 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 23.0 (TID 32, localhost, PROCESS_LOCAL, 1361 bytes)
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: Missing parents for Stage 20: List(Stage 22, Stage 23)
+15/04/12 17:36:37 INFO executor.Executor: Running task 1.0 in stage 23.0 (TID 32)
+15/04/12 17:36:37 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 23.0 (TID 31) in 3 ms on localhost (1/6)
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: Missing parents for Stage 22: List()
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: Submitting Stage 22 (MappedRDD[79] at subtract at UsersCollecting.scala:49), which is now runnable
+15/04/12 17:36:37 INFO storage.MemoryStore: ensureFreeSpace(2744) called with curMem=7680, maxMem=1016950947
+15/04/12 17:36:37 INFO storage.MemoryStore: Block broadcast_22 stored as values in memory (estimated size 2.7 KB, free 969.8 MB)
+15/04/12 17:36:37 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from Stage 22 (MappedRDD[79] at subtract at UsersCollecting.scala:49)
+Downloading user 1
+15/04/12 17:36:37 INFO scheduler.TaskSchedulerImpl: Adding task set 22.0 with 1 tasks
+15/04/12 17:36:38 INFO executor.Executor: Finished task 1.0 in stage 23.0 (TID 32). 814 bytes result sent to driver
+15/04/12 17:36:38 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 22.0 (TID 33, localhost, PROCESS_LOCAL, 982 bytes)
+15/04/12 17:36:38 INFO executor.Executor: Running task 0.0 in stage 22.0 (TID 33)
+15/04/12 17:36:38 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 23.0 (TID 32) in 1285 ms on localhost (2/6)
+15/04/12 17:36:38 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: maxBytesInFlight: 50331648, targetRequestSize: 10066329
+15/04/12 17:36:38 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+15/04/12 17:36:38 INFO storage.BlockFetcherIterator$BasicBlockFetcherIterator: Started 0 remote fetches in 1 ms
+15/04/12 17:36:38 INFO executor.Executor: Finished task 0.0 in stage 22.0 (TID 33). 1005 bytes result sent to driver
+15/04/12 17:36:38 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 23.0 (TID 34, localhost, PROCESS_LOCAL, 1434 bytes)
+15/04/12 17:36:38 INFO executor.Executor: Running task 2.0 in stage 23.0 (TID 34)
+15/04/12 17:36:38 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 22.0 (TID 33) in 34 ms on localhost (1/1)
+15/04/12 17:36:38 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 22.0, whose tasks have all completed, from pool 
+15/04/12 17:36:38 INFO scheduler.DAGScheduler: Stage 22 (subtract at UsersCollecting.scala:49) finished in 1,316 s
+15/04/12 17:36:38 INFO scheduler.DAGScheduler: looking for newly runnable stages
+15/04/12 17:36:38 INFO scheduler.DAGScheduler: running: Set(Stage 23)
+15/04/12 17:36:38 INFO scheduler.DAGScheduler: waiting: Set(Stage 20)
+15/04/12 17:36:38 INFO scheduler.DAGScheduler: failed: Set()
+15/04/12 17:36:38 INFO scheduler.DAGScheduler: Missing parents for Stage 20: List(Stage 23)
+Downloading user 907
+Downloading user 20720185
+Downloading user 29825869
+Downloading user 1666872
+Downloading user 294029
+Downloading user 1708231
+Downloading user 961430
+Downloading user 2791
+Downloading user 1824209
+Downloading user 407032
+15/04/12 17:36:43 INFO executor.Executor: Finished task 2.0 in stage 23.0 (TID 34). 814 bytes result sent to driver
+15/04/12 17:36:43 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 23.0 (TID 35, localhost, PROCESS_LOCAL, 1430 bytes)
+15/04/12 17:36:43 INFO executor.Executor: Running task 3.0 in stage 23.0 (TID 35)
+15/04/12 17:36:43 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 23.0 (TID 34) in 5103 ms on localhost (3/6)
+Downloading user 67540
+Downloading user 926307
+Downloading user 185081383
+Downloading user 1661062
+Downloading user 206731
+Downloading user 29227566
+
+Process finished with exit code -1

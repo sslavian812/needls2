@@ -66,8 +66,7 @@
 			},
 			"university_name": {
 				"type": "string",
-				"index": "analyzed",
-				"analyzer": "russian"
+				"index": "analyzed"
 			},
 			"yearOfBirth": {
 				"type": "long"

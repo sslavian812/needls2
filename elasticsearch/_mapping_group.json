@@ -4,7 +4,8 @@
 			"path": "id"
 		},
 		"_parent": {
-			"type": "user"
+			"type": "user",
+			"store": "yes"
 		},
 		"properties": {
 			"id": {
@@ -13,13 +14,11 @@
 			},
 			"description": {
 				"type": "string",
-				"index": "analyzed",
-				"analyzer": "russian"
+				"index": "analyzed"
 			},
 			"name": {
 				"type": "string",
-				"index": "analyzed",
-				"analyzer": "russian"
+				"index": "analyzed"
 			},
 			"members_count": {
 				"type": "long"
