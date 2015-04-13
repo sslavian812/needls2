@@ -44,11 +44,17 @@ object UsersCollecting {
       // load Users
 
       loadedIds = loadedIds.union(currentUsers.map(_.id))
+      println("=======" + i + "-th iteration")
 
       val friends = currentUsers.flatMap(_.friends).distinct()
       loadingQueue = friends.map(_.toString).subtract(loadedIds)
 
+      println("####### before substracting")
+      println("total: "+ loadingQueue.count())
       loadingQueue = loadingQueue.subtract(idsToLoad)
+      println("####### after substracting")
+      println("total: "+loadingQueue.count())
+
       idsToLoad = sc.parallelize(loadingQueue.take(usersPerIteration))
       // update downloading queue
 
