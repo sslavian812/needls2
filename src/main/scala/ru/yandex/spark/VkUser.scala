@@ -100,21 +100,21 @@ object VkUser {
 
     var parsedUser = tr(user, {
       user =>
-        user.copy(sub_user_count = (
-          (parsed \ "response" \ "users" \ "count").extract[Int]))
+        user.copy(sub_user_count =
+          (parsed \ "response" \ "users" \ "count").extract[Int])
     })
 
     parsedUser = tr(parsedUser, {
       user =>
-        user.copy(groupInformation = user.groupInformation.copy(sub_groups_count = (
-          (parsed \ "response" \ "groups" \ "count").extract[Int])))
+        user.copy(groupInformation = user.groupInformation.copy(sub_groups_count =
+          (parsed \ "response" \ "groups" \ "count").extract[Int]))
     })
 
 
     parsedUser = tr(parsedUser, {
       user =>
-        user.copy(groupInformation = user.groupInformation.copy(groups = (
-          (parsed \ "response" \ "groups" \ "items").extract[List[Long]])))
+        user.copy(groupInformation = user.groupInformation.copy(groups =
+          (parsed \ "response" \ "groups" \ "items").extract[List[Long]]))
     })
 
     parsedUser = tr(parsedUser, {
@@ -187,7 +187,7 @@ object VkUser {
     })
 
     val arr = (parsed \ "response").extract[List[JValue]]
-    val arr2 = arr diff List(arr(0)) // todo is there a better way to remove first element?
+    val arr2 = arr diff List(arr(0)) // TODO is there a better way to remove first element?
     val posts = arr2.map(post => PostInformation(
         (post \ "id").extract[Long],
         (post \ "text").extract[String],

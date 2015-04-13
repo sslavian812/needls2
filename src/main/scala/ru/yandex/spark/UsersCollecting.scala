@@ -43,12 +43,13 @@ object UsersCollecting {
       val currentUsers = idsToLoad.map(u => VkUser.addExtraInformation(User(u)))
       // load Users
 
-      loadedIds = loadedIds.union(currentUsers.map(u => u.id))
+      loadedIds = loadedIds.union(currentUsers.map(_.id))
 
-      val friends = currentUsers.flatMap(u => u.friends).distinct()
-      loadingQueue = friends.map(x => "" + x).subtract(loadedIds)
+      val friends = currentUsers.flatMap(_.friends).distinct()
+      loadingQueue = friends.map(_.toString).subtract(loadedIds)
+
+      loadingQueue = loadingQueue.subtract(idsToLoad)
       idsToLoad = sc.parallelize(loadingQueue.take(usersPerIteration))
-      loadingQueue.subtract(idsToLoad)
       // update downloading queue
 
       //currentUsers.foreach(u => VkUser.storeUser(u, storageDirectory))
