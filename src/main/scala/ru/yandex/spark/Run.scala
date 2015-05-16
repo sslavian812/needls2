@@ -1,20 +1,20 @@
 package ru.yandex.spark
 
-  import java.io.{PrintWriter, FileWriter, BufferedWriter, File}
+import java.io.{PrintWriter, FileWriter, BufferedWriter, File}
 
-  import org.apache.spark.rdd.RDD
+import org.apache.spark.rdd.RDD
 
-  import scala.io.Source
-  import scala.util.Random
+import scala.io.Source
+import scala.util.Random
 
-  object Run {
+object Run {
 
-    case class LP(label: Int, features: List[Double])
+  case class LP(label: Int, features: List[Double])
 
-    def main(args: Array[String]): Unit = {
-      storeResult()
-      splitResult()
-    }
+  def main(args: Array[String]): Unit = {
+    storeResult()
+    splitResult()
+  }
 
   def splitResult() = {
     val i = Random.shuffle(Source

@@ -111,12 +111,12 @@ object ClusterTest {
       .map(v => (v._2._1.user, v._2._2))
 
 
-/*    println("Attention")
-    pr
-      .filter(_._2.colors.sum > 0)
-      .collect()
-      .foreach(i => println(i._1.id + " " + i._2.colors.sum))
-    println("No more attention")*/
+    /*    println("Attention")
+        pr
+          .filter(_._2.colors.sum > 0)
+          .collect()
+          .foreach(i => println(i._1.id + " " + i._2.colors.sum))
+        println("No more attention")*/
 
     val max = pr.map(_._2).reduce(colorMax)
 

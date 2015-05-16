@@ -79,10 +79,22 @@ object VkUser {
     parametr + "=" + value + "&"
   }
 
-  def addExtraInformation(user: User) = {
+  def filteringPredicate(user: User): Boolean = {
+    if (user.generalInformation.city == 1 || user.generalInformation.city == 2) {
+      val year = user.generalInformation.yearOfBirth
+      if (year == Int.MinValue || (1980 < year && year < 1995))
+        return true
+    }
+    false
+  }
+
+  def addExtraInformation(user: User): User = {
     println("Downloading user " + user.id)
     var changedUser = user
     changedUser = tr(changedUser, { user => addGeneralInformation(user)})
+    if (!filteringPredicate(changedUser))
+      return null
+
     changedUser = tr(changedUser, { user => addSubscribtionInformation(user)})
     changedUser = tr(changedUser, { user => addFollowersInformation(user)})
     changedUser = tr(changedUser, { user => addWallInformation(user)})
