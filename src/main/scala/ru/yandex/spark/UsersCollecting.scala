@@ -8,7 +8,7 @@ import org.json4s.jackson.JsonMethods._
 object UsersCollecting {
 
   implicit val formats = DefaultFormats
-  val usersPerIteration = 10
+  val usersPerIteration = 5
 
   /**
    * VM options:
@@ -31,36 +31,23 @@ object UsersCollecting {
     if(startId == null || "".equals(startId))
       startId = "1"
 
-    var mainLoadingQueue = sc.parallelize(List[String]())
-    var alreadyLoadedIds = sc.parallelize(List[String]())
-    var loadOnIteration = sc.parallelize(List(startId))
-
-    ElasticSearchHelper.init()
+    var loadingQueue = sc.parallelize(List[String](startId))
+    var loadedIds = sc.parallelize(List[String]())
+    //ElasticSearchHelper.init()
 
 
     for( i <- 0 until iterations) {
-      println("=======" + i + "-th iteration")
-      println("MLQ.size = " + mainLoadingQueue.count())
 
-      val currentUsers = loadOnIteration.map(u => VkUser.addExtraInformation(User(u)))
-      alreadyLoadedIds = alreadyLoadedIds.union(currentUsers.map(_.id))
-      // load Users
+      val idsToLoad = sc.parallelize(loadingQueue.take(usersPerIteration))
 
-      val friendsIds = currentUsers.flatMap(_.friends).distinct()
-      println("friends.size = " + friendsIds.count())
+      val currentUsers = idsToLoad.map(u => VkUser.addExtraInformation(User(u)))
+      loadedIds = loadedIds.union(idsToLoad)
 
-      mainLoadingQueue = friendsIds.map(_.toString).subtract(alreadyLoadedIds)
-      println("MLQ.size = " + mainLoadingQueue.count())
+      val friends = currentUsers.flatMap(_.friends).distinct()
+      loadingQueue = loadingQueue.union(friends.map(_.toString))
+      loadingQueue = loadingQueue.subtract(loadedIds)
 
-      loadOnIteration = sc.parallelize(mainLoadingQueue.take(usersPerIteration))
-      println("LOI.size = " + loadOnIteration.count())
-
-      mainLoadingQueue = mainLoadingQueue.subtract(loadOnIteration)
-      println("MLQ.size = " + mainLoadingQueue.count())
-
-      // update downloading queue
-
-      currentUsers.foreach(u =>  ElasticSearchHelper.addUser(u))
+      //currentUsers.foreach(u =>  ElasticSearchHelper.addUser(u))
       if(storageDirectory != null)
         currentUsers.foreach(u => VkUser.storeUser(u, storageDirectory))
 
